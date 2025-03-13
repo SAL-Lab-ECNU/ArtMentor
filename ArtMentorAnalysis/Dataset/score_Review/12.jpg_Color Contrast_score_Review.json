@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork effectively uses contrasting colors to enhance visual interest. The rainbow, with its vibrant and distinct colors, stands out prominently against the lighter background. The children's clothing also features a variety of bright and contrasting colors, which adds to the overall appeal. However, the contrast between the children's hair and their faces is less pronounced, which slightly diminishes the visual impact. Overall, the use of color contrast is strong and contributes positively to the artwork's visual appeal.",
+                "current": "The artwork effectively uses contrasting colors to enhance visual interest. The rainbow, with its vibrant and distinct colors, stands out prominently against the lighter background. The children's clothing also features a variety of bright and contrasting colors, which adds to the overall appeal. However, the contrast between the children's hair and their faces is less pronounced, which slightly diminishes the visual impact. Overall, the use of color contrast is strong and contributes positively to the artwork's visual appeal.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork uses color contrasts moderately well. The rainbow is vibrant, but some of the colors blend together due to similar tones. The children's clothing could have more distinct contrasts to make them stand out.",
+                "current": "The artwork effectively uses contrasting colors to enhance visual interest. The rainbow, with its vibrant and distinct colors, stands out prominently against the lighter background. The children's clothing features a variety of bright and contrasting colors, which adds to the overall appeal. The contrast between the children's hair and their faces could be improved to enhance the visual impact.",
+                "added": "effectively uses contrasting colors to enhance visual interest. The rainbow, with its vibrant and distinct colors, stands out prominently against the lighter background. The children's clothing features a variety of bright and contrasting colors, which adds to the overall appeal. ",
+                "removed": "uses color contrasts moderately well. The rainbow is vibrant, but some of the colors blend together due to similar tones. The children's clothing could have more distinct contrasts to make them stand out."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork excels in its use of color contrast. The vivid rainbow contrasts sharply against the soft sky, creating a stunning focal point. The children's brightly colored clothing stands out distinctly from the background and each other, enhancing the composition. The improved contrast between the children's hair and faces significantly boosts the visual impact. Overall, the masterful use of contrasting colors greatly enhances the artwork's appeal.",
+                "current": "The artwork excels in its use of color contrast. The vivid rainbow contrasts sharply against the soft sky, creating a stunning focal point. The children's brightly colored clothing stands out distinctly from the background and each other, enhancing the composition. The contrast between the children's hair and faces has been significantly improved, boosting the visual impact. The addition of contrasting colors in the background elements further enriches the scene. Overall, the masterful use of contrasting colors greatly enhances the artwork's appeal.",
+                "added": " The addition of contrasting colors in the background elements further enriches the scene.",
+                "removed": ""
+            }
+        }
+    }
+]

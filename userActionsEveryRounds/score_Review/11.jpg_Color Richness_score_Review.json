@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of blue for the airplane and clothing, green for the grass and some clothing, and pink for the flowers creates a vibrant and engaging composition. The colorful smoke behind the plane adds an additional layer of visual interest. However, the color palette could be expanded slightly to include more diverse hues to further enrich the visual experience.",
+                "current": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of blue for the airplane and clothing, green for the grass and some clothing, and pink for the flowers creates a vibrant and engaging composition. The colorful smoke behind the plane adds an additional layer of visual interest. However, the color palette could be expanded slightly to include more diverse hues to further enrich the visual experience.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "While the artwork employs a variety of colors, the overall color richness could be enhanced. The predominant use of blue and green is pleasant, but the palette feels somewhat limited. Introducing additional hues could make the composition more vibrant.",
+                "current": "While the artwork employs a variety of colors, the predominant use of blue and green is pleasant. The colorful smoke behind the plane adds an interesting burst of color. Introducing additional hues could make the composition even more vibrant.",
+                "added": " The colorful smoke behind the plane adds an interesting burst of color.",
+                "removed": " the overall color richness could be enhanced."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork excels in color richness, featuring a diverse and vibrant palette that enhances the visual experience. The harmonious blend of blues, greens, pinks, and additional hues creates a rich tapestry of color. The colorful smoke and varied elements contribute to an engaging and lively composition.",
+                "current": "The artwork excels in color richness, featuring a diverse and vibrant palette that enhances the visual experience. The harmonious blend of blues, greens, pinks, and additional hues creates a rich tapestry of color. The colorful smoke and varied elements contribute to an engaging and lively composition. The inclusion of warm tones like yellows and oranges in the background enriches the palette even further.",
+                "added": " The inclusion of warm tones like yellows and oranges in the background enriches the palette even further.",
+                "removed": ""
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line combinations in the artwork, consider refining the integration of the people with the background. This can be achieved by adding more detailed lines to the grass and flowers to create a more cohesive and natural transition between the foreground and background. Additionally, enhancing the outlines of the people and their clothing with varied line thickness can add depth and dimension, making the scene more visually engaging. Emphasizing the lines in the colorful smoke behind the airplane can also add to the dynamic feel of the piece.",
+                "current": "To improve the line combinations in the artwork, consider refining the integration of the people with the background by blending the lines of the figures into the scenery more naturally. Adding subtle variations in line weight, especially in the people's clothing, will help create smoother transitions between the elements.",
+                "added": "Adding subtle variations in line weight, especially in the people's clothing, will help create smoother transitions between the elements.",
+                "removed": "adding more detailed lines to the grass and flowers to create a more cohesive and natural transition between the foreground and background."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The line combinations are effective, but there could be more contrast between thick and thin lines throughout the piece. Introducing finer lines in the background while keeping bold lines in the foreground can create a stronger sense of depth and hierarchy in the composition.",
+                "current": "Instead of adding finer lines, simplifying the line work in the background can create a more minimalistic approach that highlights the figures. Bold, consistent lines in the people's clothing and the smoke behind the airplane will enhance focus on the main subjects, while reducing unnecessary details in the background.",
+                "added": "Bold, consistent lines in the people's clothing and the smoke behind the airplane will enhance focus on the main subjects, while reducing unnecessary details in the background.",
+                "removed": "Introducing finer lines in the background while keeping bold lines in the foreground can create a stronger sense of depth and hierarchy in the composition."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To make the line combinations more dynamic, you could experiment with adding more intricate patterns in the people’s clothing and the airplane's smoke. Varying the line texture in these areas can bring more energy to the composition and make the artwork more visually captivating.",
+                "current": "To create a cleaner and more streamlined look, consider reducing the use of intricate patterns in the people's clothing and the airplane's smoke. Simplifying the line work and focusing on consistent line weight can bring balance to the composition, allowing the key elements to stand out more clearly without overwhelming the viewer.",
+                "added": "Simplifying the line work and focusing on consistent line weight can bring balance to the composition, allowing the key elements to stand out more clearly without overwhelming the viewer.",
+                "removed": "experiment with adding more intricate patterns in the people’s clothing and the airplane's smoke. Varying the line texture in these areas can bring more energy to the composition and make the artwork more visually captivating."
+            }
+        }
+    }
+]

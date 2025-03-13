@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line texture in the artwork, consider incorporating a variety of line weights and styles. For instance, use thinner lines for detailing the airplane and the children's clothing to add depth and intricacy. Introduce hatching or cross-hatching techniques to create shadows and texture on the grass and flowers. Additionally, varying the line thickness in the outlines of the characters and objects can enhance the overall dynamism and visual interest of the piece.",
+                "current": "To improve the line texture in the artwork, simplifying the line work rather than adding complexity may result in a cleaner look. By keeping the line weights consistent, particularly in the airplane and characters, you can achieve a more minimalistic and polished appearance. Avoiding hatching techniques and focusing on smooth, even textures across the elements will create a more cohesive design.",
+                "added": "By keeping the line weights consistent, particularly in the airplane and characters, you can achieve a more minimalistic and polished appearance. Avoiding hatching techniques and focusing on smooth, even textures across the elements will create a more cohesive design.",
+                "removed": "Introduce hatching or cross-hatching techniques to create shadows and texture on the grass and flowers. Additionally, varying the line thickness in the outlines of the characters and objects can enhance the overall dynamism and visual interest of the piece."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The line textures are effective, but adding more intricate details in the children's clothing could create more visual depth. Introducing finer lines in certain areas and using bold, textured strokes in others will add complexity and make the figures stand out more distinctly from the background.",
+                "current": "Rather than adding intricate details, consider maintaining a simplified line texture throughout the children's clothing. Using uniform, clean lines will help avoid distractions and keep the focus on the central elements. Simplifying the texture across both the figures and background will create a balanced and harmonious composition without overwhelming the viewer.",
+                "added": "Using uniform, clean lines will help avoid distractions and keep the focus on the central elements. Simplifying the texture across both the figures and background will create a balanced and harmonious composition without overwhelming the viewer.",
+                "removed": "adding more intricate details in the children's clothing could create more visual depth. Introducing finer lines in certain areas and using bold, textured strokes in others will add complexity and make the figures stand out more distinctly from the background."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To add more dynamic movement, consider varying the line textures between different elements. For example, rougher, more expressive lines in the background and smoother, flowing lines in the figures could create a contrast that adds energy and enhances the storytelling within the piece.",
+                "current": "To create a more unified look, keep the line textures consistent throughout the artwork. By using smooth, even lines across both the figures and the background, the piece will appear more refined and balanced. This approach minimizes distractions and ensures that all elements work together in harmony, rather than competing for attention.",
+                "added": "By using smooth, even lines across both the figures and the background, the piece will appear more refined and balanced. This approach minimizes distractions and ensures that all elements work together in harmony, rather than competing for attention.",
+                "removed": "rougher, more expressive lines in the background and smoother, flowing lines in the figures could create a contrast that adds energy and enhances the storytelling within the piece."
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[{
+    "round": 1,
+    "data": {
+        "scores": {
+            "original": 0,
+            "current": 0,
+            "initGPTscore": null
+        },
+        "Reviews": {
+            "original": "",
+            "current": "",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 2,
+    "data": {
+        "scores": {
+            "original": 4,
+            "current": 4,
+            "initGPTscore": 4
+        },
+        "Reviews": {
+            "original": "The artwork effectively uses contrasting colors to enhance visual interest. The green shirt and blue shorts of the character stand out against the lighter background, and the black hair and shoes provide a strong contrast. The animals, such as the yellow cat and brown monkey, are also distinct and easily recognizable due to their contrasting colors. The yellow balances and the colorful stack of books add to the visual appeal. However, the contrast could be slightly more pronounced in some areas to achieve a more striking visual impact.",
+            "current": "The artwork effectively uses contrasting colors to enhance visual interest. The green shirt and blue shorts of the character stand out against the lighter background, and the black hair and shoes provide a strong contrast. The animals, such as the yellow cat and brown monkey, are also distinct and easily recognizable due to their contrasting colors. The yellow balances and the colorful stack of books add to the visual appeal. However, the contrast could be slightly more pronounced in some areas to achieve a more striking visual impact.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 3,
+    "data": {
+        "scores": {
+            "original": 4,
+            "current": 4,
+            "initGPTscore": 4
+        },
+        "Reviews": {
+            "original": "The artwork effectively uses contrasting colors to enhance visual interest. The green shirt and blue shorts of the character stand out against the lighter background, and the black hair and shoes provide a strong contrast. The animals, such as the yellow cat and brown monkey, are also distinct and easily recognizable due to their contrasting colors. The yellow balances and the colorful stack of books add to the visual appeal. However, the contrast could be slightly more pronounced in some areas to achieve a more striking visual impact.",
+            "current": "The artwork effectively uses contrasting colors to enhance visual interest. The green shirt and blue shorts of the character stand out against the lighter background, and the black hair and shoes provide a strong contrast. The animals, such as the yellow cat and brown monkey, are also distinct and easily recognizable due to their contrasting colors. The yellow balances and the colorful stack of books add to the visual appeal. However, the contrast could be slightly more pronounced in some areas to achieve a more striking visual impact.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}]

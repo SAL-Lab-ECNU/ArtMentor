@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line combination in the artwork, consider adding more cohesive and consistent line work in the background. This can help enhance the overall visual harmony and make the characters and robot stand out more effectively. Additionally, refining the lines around the characters' outfits and raised hands can further emphasize the sense of movement and interaction. Experimenting with varying line thicknesses and styles can also add depth and interest to the piece.",
+                "current": "To improve the line combination in the artwork, consider simplifying the line work in the background for a cleaner appearance. Focusing on bold, consistent lines in the foreground will enhance the contrast between the characters and their surroundings. Additionally, sharpening the outlines of the characters' hands and clothing can make the sense of movement more pronounced while maintaining a cohesive look.",
+                "added": "Focusing on bold, consistent lines in the foreground will enhance the contrast between the characters and their surroundings. Additionally, sharpening the outlines of the characters' hands and clothing can make the sense of movement more pronounced while maintaining a cohesive look.",
+                "removed": "adding more cohesive and consistent line work in the background. This can help enhance the overall visual harmony and make the characters and robot stand out more effectively."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The line combinations work well, but some areas, like the robot's arms and legs, could use more definition. Adding finer lines to these areas can highlight the mechanical details and add realism. Additionally, softening the lines around the background elements might help create a stronger focus on the main figures.",
+                "current": "Rather than adding finer lines to the robot's arms and legs, consider using bold, defined strokes to give a more futuristic and dynamic look. Reducing unnecessary details in the background will also allow the robot and characters to be the central focus of the piece. Keeping the linework consistent across the main elements will add to the overall visual impact.",
+                "added": "consider using bold, defined strokes to give a more futuristic and dynamic look. Reducing unnecessary details in the background will also allow the robot and characters to be the central focus of the piece. Keeping the linework consistent across the main elements will add to the overall visual impact.",
+                "removed": "Adding finer lines to these areas can highlight the mechanical details and add realism. Additionally, softening the lines around the background elements might help create a stronger focus on the main figures."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create more visual contrast, you could experiment with thicker, bolder lines for the robot and characters while using thinner, lighter lines in the background. This would create a stronger sense of depth and make the key elements pop more effectively.",
+                "current": "To create a more streamlined look, simplify the linework in both the robot and the background. Rather than using varying line thickness, opt for clean, consistent lines throughout to give the piece a more unified and balanced composition. This approach will enhance the clarity of the characters without overwhelming the viewer with too much contrast.",
+                "added": "opt for clean, consistent lines throughout to give the piece a more unified and balanced composition. This approach will enhance the clarity of the characters without overwhelming the viewer with too much contrast.",
+                "removed": "experiment with thicker, bolder lines for the robot and characters while using thinner, lighter lines in the background. This would create a stronger sense of depth and make the key elements pop more effectively."
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To further enhance the color contrast in the artwork, consider incorporating complementary colors for the characters' outfits and the background. For instance, using a color wheel, you can identify colors opposite each other to create a more striking contrast. Additionally, adding gradients or shading to the background can provide depth and make the characters stand out even more. Experimenting with different color combinations and intensities can also help in achieving a more dynamic and visually appealing piece.",
+                "current": "To further enhance the color contrast in the artwork, consider incorporating complementary colors for the characters' outfits and the background. For instance, using a color wheel, you can identify colors opposite each other to create a more striking contrast. Additionally, adding gradients or shading to the background can provide depth and make the characters stand out even more. Experimenting with different color combinations and intensities can also help in achieving a more dynamic and visually appealing piece.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The current color contrast is effective, but reducing the saturation of the background might help the figures pop more. Muting some elements could allow the main characters to become the focus of the composition, resulting in a cleaner and more balanced visual.",
+                "current": "Instead of reducing saturation, try increasing the brightness and intensity of the complementary colors in the characters' outfits and the background. Enhancing these contrasts can make the artwork more dynamic. Additionally, incorporating subtle shadows and highlights can create depth without overwhelming the composition.",
+                "added": "Enhancing these contrasts can make the artwork more dynamic. Additionally, incorporating subtle shadows and highlights can create depth without overwhelming the composition.",
+                "removed": "reducing the saturation of the background might help the figures pop more. Muting some elements could allow the main characters to become the focus of the composition, resulting in a cleaner and more balanced visual."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create a more cohesive color scheme, consider toning down some of the bright hues and focusing on a more limited palette. Simplifying the color choices might give the artwork a more refined and sophisticated appearance, making the figures stand out without too much visual distraction.",
+                "current": "To further enhance the color contrast, consider amplifying the complementary colors and introducing more vibrant shades for the characters' outfits. Instead of limiting the palette, try adding more varied tones in both the background and the characters. This will create a more engaging and lively composition, with the figures standing out boldly.",
+                "added": "Instead of limiting the palette, try adding more varied tones in both the background and the characters. This will create a more engaging and lively composition, with the figures standing out boldly.",
+                "removed": "toning down some of the bright hues and focusing on a more limited palette. Simplifying the color choices might give the artwork a more refined and sophisticated appearance."
+            }
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 3,
+                "initGPTscore": 3
+            },
+            "Reviews": {
+                "original": "The artwork features a moderate variety in line textures. The lines used to outline the airplane, people, and flowers are clear and distinct, contributing to the overall structure of the piece. However, the line textures are relatively uniform and lack intricate details that could enhance the visual interest. The execution is generally adequate, but there is room for more variety and sophistication in the line work to elevate the artwork's quality.",
+                "current": "The artwork features a moderate variety in line textures. The lines used to outline the airplane, people, and flowers are clear and distinct, contributing to the overall structure of the piece. However, the line textures are relatively uniform and lack intricate details that could enhance the visual interest. The execution is generally adequate, but there is room for more variety and sophistication in the line work to elevate the artwork's quality.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 4,
+                "initGPTscore": 3
+            },
+            "Reviews": {
+                "original": "The artwork displays a moderate level of line texture. The lines outlining the airplane, people, and flowers are clear but lack variation. The line work is consistent but could benefit from more intricate textures to add depth and interest. Incorporating varied line weights and patterns could enhance the overall quality.",
+                "current": "The artwork displays a moderate level of line texture. The lines outlining the airplane, people, and flowers are clear but lack variation. The line work could benefit from more intricate textures to add depth and interest. Incorporating varied line weights and patterns could significantly enhance the overall quality.",
+                "added": "significantly",
+                "removed": "is consistent but"
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 5,
+                "initGPTscore": 3
+            },
+            "Reviews": {
+                "original": "The artwork shows improvement in line texture. The artist has introduced varied line weights and patterns, adding depth and interest to the composition. The intricate line work in the airplane and the flowers enhances the visual appeal. The diversity in line textures contributes positively to the overall quality of the piece.",
+                "current": "The artwork shows a significant improvement in line texture. The artist has introduced varied line weights and patterns, adding depth and interest to the composition. The intricate line work in the airplane, the people, and the flowers greatly enhances the visual appeal.",
+                "added": "significant, the people, greatly",
+                "removed": "The diversity in line textures contributes positively to the overall quality of the piece."
+            }
+        }
+    }
+]

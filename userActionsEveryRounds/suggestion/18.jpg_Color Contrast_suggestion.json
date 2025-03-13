@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the color contrast in the artwork, consider using darker shades for the outlines of the characters and the mountains to make them stand out more against the green background. Additionally, incorporating more contrasting colors for the characters' clothing, such as using complementary colors, can enhance the visual impact. For example, using a darker blue for the pants and a more vibrant orange for the hats can create a more striking contrast. Also, adding some highlights or shadows to the characters and background elements can add depth and make the scene more dynamic.",
+                "current": "To improve the color contrast in the artwork, consider using darker shades for the outlines of the characters and the mountains to make them stand out more against the green background. Additionally, incorporating more contrasting colors for the characters' clothing, such as using complementary colors, can enhance the visual impact. For example, using a darker blue for the pants and a more vibrant orange for the hats can create a more striking contrast. Also, adding some highlights or shadows to the characters and background elements can add depth and make the scene more dynamic.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The contrast is already strong, but toning down the brightness of the green background could help the figures stand out more. Muting some of the background elements would allow the characters and mountains to take center stage.",
+                "current": "Rather than toning down the background, consider enhancing the contrast between the foreground and background elements. Deepening the shadows in the characters' clothing and increasing the brightness of the background can create a more vivid, dynamic composition. Also, adding more vibrant shades to the mountains could make them pop against the sky.",
+                "added": "Deepening the shadows in the characters' clothing and increasing the brightness of the background can create a more vivid, dynamic composition. Also, adding more vibrant shades to the mountains could make them pop against the sky.",
+                "removed": "toning down the brightness of the green background could help the figures stand out more. Muting some of the background elements would allow the characters and mountains to take center stage."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create a more balanced contrast, consider softening the transitions between light and dark areas. This will create a smoother flow across the artwork, allowing the viewer to focus more easily on the main elements without being distracted by harsh contrasts.",
+                "current": "To further enhance the color contrast, try amplifying the differences between the light and dark elements. Rather than softening the transitions, using bolder color pairings in the characters' clothing and the mountains can create a more dynamic composition. Sharper contrasts will make the figures and background stand out more vividly, adding depth and intensity to the artwork.",
+                "added": "using bolder color pairings in the characters' clothing and the mountains can create a more dynamic composition. Sharper contrasts will make the figures and background stand out more vividly, adding depth and intensity to the artwork.",
+                "removed": "softening the transitions between light and dark areas. This will create a smoother flow across the artwork, allowing the viewer to focus more easily on the main elements without being distracted by harsh contrasts."
+            }
+        }
+    }
+]

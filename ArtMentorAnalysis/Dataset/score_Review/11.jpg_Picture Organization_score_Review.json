@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork demonstrates good organization with a well-arranged composition. The blue airplane is prominently placed at the top, drawing the viewer's eye immediately. The children are positioned below, raising their hands towards the airplane, which creates a sense of interaction and movement. The colorful smoke behind the plane adds a dynamic element to the piece. The placement of the pink flowers at the bottom adds a nice touch of color and balances the composition. However, there are minor elements, such as the overlapping of some figures, that slightly disrupt the flow. Overall, the composition effectively guides the viewer's eye and creates a cohesive scene.",
+                "current": "The artwork demonstrates good organization with a well-arranged composition. The blue airplane is prominently placed at the top, drawing the viewer's eye immediately. The children are positioned below, raising their hands towards the airplane, which creates a sense of interaction and movement. The colorful smoke behind the plane adds a dynamic element to the piece. The placement of the pink flowers at the bottom adds a nice touch of color and balances the composition. However, there are minor elements, such as the overlapping of some figures, that slightly disrupt the flow. Overall, the composition effectively guides the viewer's eye and creates a cohesive scene.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The composition of the artwork is generally effective, but some elements could be better arranged. The blue airplane is a focal point, but the placement of the children feels a bit crowded. The colorful smoke adds interest, but the flowers at the bottom seem disconnected from the rest of the scene.",
+                "current": "The composition of the artwork is effective, with the blue airplane as a strong focal point. The children are well-positioned below, creating a sense of depth. The colorful smoke enhances the dynamic feel of the piece. The pink flowers at the bottom add balance and connect the foreground to the background.",
+                "added": "The children are well-positioned below, creating a sense of depth. The pink flowers at the bottom add balance and connect the foreground to the background.",
+                "removed": "but the placement of the children feels a bit crowded. The flowers at the bottom seem disconnected from the rest of the scene."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork exhibits excellent organization and a well-thought-out composition. The blue airplane at the top serves as a captivating focal point. The children are strategically placed below, leading the viewer's eye through the scene. The colorful smoke and pink flowers create a harmonious balance between movement and tranquility.",
+                "current": "The artwork exhibits excellent organization and a well-thought-out composition. The blue airplane at the top serves as a captivating focal point. The children are strategically placed below, leading the viewer's eye through the scene. The colorful smoke and pink flowers create a harmonious balance between movement and tranquility. The overlapping figures now enhance the sense of depth rather than disrupting the flow.",
+                "added": " The overlapping figures now enhance the sense of depth rather than disrupting the flow.",
+                "removed": ""
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the color richness of the artwork, consider incorporating a wider variety of colors and shades. Introducing more distinct hues and gradients can add depth and interest. For example, you could add different shades of blue to the water, more varied greens to the background, and additional colors to the clothing and objects. This will help to reduce the repetition in the color palette and enhance the overall visual appeal.",
+                "current": "To improve the color richness of the artwork, consider incorporating a wider variety of colors and shades. Introducing more distinct hues and gradients can add depth and interest. For example, you could add different shades of blue to the water, more varied greens to the background, and additional colors to the clothing and objects. This will help to reduce the repetition in the color palette and enhance the overall visual appeal.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The current color palette is bold but could benefit from more neutral tones. Reducing the intensity of certain colors might help the main elements stand out more. Muting some of the brighter areas, especially in the background, would create a better balance between the elements.",
+                "current": "Instead of reducing the intensity of the colors, consider increasing the contrast between bold and subtle shades. By deepening the saturation in the main elements and blending them with softer gradients, the artwork can achieve more dynamic color richness. Adding more complementary tones to the background can further enhance the visual balance.",
+                "added": "By deepening the saturation in the main elements and blending them with softer gradients, the artwork can achieve more dynamic color richness. Adding more complementary tones to the background can further enhance the visual balance.",
+                "removed": "Reducing the intensity of certain colors might help the main elements stand out more. Muting some of the brighter areas, especially in the background, would create a better balance between the elements."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "Simplifying the color scheme by using fewer bright colors could make the composition look more refined. Incorporating more monochromatic areas might give the artwork a sophisticated feel, allowing the viewer to focus on the shapes and forms rather than being overwhelmed by color variety.",
+                "current": "To further enhance the color richness, try adding more layers of vibrant tones rather than simplifying the palette. By experimenting with gradients and contrasting hues, especially in the figures and background, you can create a more visually compelling and dynamic composition. The use of shadows and highlights could also emphasize the depth and richness of the colors.",
+                "added": "By experimenting with gradients and contrasting hues, especially in the figures and background, you can create a more visually compelling and dynamic composition. The use of shadows and highlights could also emphasize the depth and richness of the colors.",
+                "removed": "Simplifying the color scheme by using fewer bright colors could make the composition look more refined. Incorporating more monochromatic areas might give the artwork a sophisticated feel."
+            }
+        }
+    }
+]

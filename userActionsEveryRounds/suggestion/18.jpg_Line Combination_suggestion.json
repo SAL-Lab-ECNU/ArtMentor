@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line combinations in the artwork, consider refining the line work in areas such as the flowers and the airplane. This can be achieved by using more precise and consistent lines to enhance the details and overall harmony of the piece. Additionally, varying the line thickness in different parts of the artwork can add depth and interest, making the elements stand out more effectively. Ensuring that the lines are clean and well-defined will contribute to a more polished and cohesive visual presentation.",
+                "current": "To improve the line combinations in the artwork, simplifying the line work in the flowers and airplane can create a cleaner look. Focusing on minimalism by reducing line thickness variation can provide a more streamlined and modern aesthetic, allowing the elements to stand out without overcomplicating the composition.",
+                "added": "Focusing on minimalism by reducing line thickness variation can provide a more streamlined and modern aesthetic, allowing the elements to stand out without overcomplicating the composition.",
+                "removed": "using more precise and consistent lines to enhance the details and overall harmony of the piece. Additionally, varying the line thickness in different parts of the artwork can add depth and interest."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The current line work is effective, but adding more intricate details in the lines of the airplane and the flowers could make them more visually interesting. Using finer lines in certain areas might help emphasize the texture and create a more dynamic contrast with the thicker lines in the rest of the artwork.",
+                "current": "Instead of adding intricate details, consider removing some of the finer lines to focus on a bolder, more impactful approach. Simplifying the lines in the airplane and flowers can make the main subjects stand out more clearly while creating a less cluttered composition. Consistent line thickness across the elements can provide a more cohesive and balanced visual experience.",
+                "added": "Simplifying the lines in the airplane and flowers can make the main subjects stand out more clearly while creating a less cluttered composition. Consistent line thickness across the elements can provide a more cohesive and balanced visual experience.",
+                "removed": "adding more intricate details in the lines of the airplane and the flowers could make them more visually interesting. Using finer lines in certain areas might help emphasize the texture and create a more dynamic contrast with the thicker lines in the rest of the artwork."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To add more depth and complexity, you could experiment with overlapping lines in the flowers and airplane to create a sense of layering. Varying the line styles and thicknesses in these areas can give the artwork a more textured and intricate appearance.",
+                "current": "To maintain a clean and organized aesthetic, try eliminating overlapping lines in the flowers and airplane. Using consistent, straightforward lines will give the artwork a more refined and simplified look, enhancing the overall harmony without distracting from the main subjects.",
+                "added": "Using consistent, straightforward lines will give the artwork a more refined and simplified look, enhancing the overall harmony without distracting from the main subjects.",
+                "removed": "experiment with overlapping lines in the flowers and airplane to create a sense of layering. Varying the line styles and thicknesses in these areas can give the artwork a more textured and intricate appearance."
+            }
+        }
+    }
+]

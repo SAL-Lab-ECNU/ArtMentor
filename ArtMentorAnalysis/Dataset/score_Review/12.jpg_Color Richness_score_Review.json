@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 5
+            },
+            "Reviews": {
+                "original": "The artwork demonstrates an excellent use of a wide and harmonious range of colors. The vibrant rainbow at the top of the piece adds a dynamic and vivid element, while the colorful clothing of the children enhances the visual appeal. Each color is thoughtfully chosen and contributes to the overall lively and engaging composition. The use of bright and varied hues creates a cheerful and energetic atmosphere, making the artwork visually captivating.",
+                "current": "The artwork demonstrates an excellent use of a wide and harmonious range of colors. The vibrant rainbow at the top of the piece adds a dynamic and vivid element, while the colorful clothing of the children enhances the visual appeal. Each color is thoughtfully chosen and contributes to the overall lively and engaging composition. The use of bright and varied hues creates a cheerful and energetic atmosphere, making the artwork visually captivating.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 5,
+                "initGPTscore": 5
+            },
+            "Reviews": {
+                "original": "The artwork showcases a strong use of color variety, though it could benefit from more diversity in certain areas. The vibrant rainbow and colorful clothing are visually appealing, but the background appears somewhat muted, which slightly lessens the overall color richness.",
+                "current": "The artwork demonstrates an excellent use of a wide and harmonious range of colors. The vibrant rainbow and colorful clothing of the children enhance the visual appeal. The background's subtle hues complement the vivid foreground, creating a balanced and captivating composition. Each color is thoughtfully chosen, contributing to the overall lively and engaging atmosphere.",
+                "added": "The background's subtle hues complement the vivid foreground, creating a balanced and captivating composition.",
+                "removed": "though it could benefit from more diversity in certain areas. The vibrant rainbow and colorful clothing are visually appealing, but the background appears somewhat muted, which slightly lessens the overall color richness."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 5
+            },
+            "Reviews": {
+                "original": "The artwork excels in its use of a wide and harmonious range of colors. The vibrant rainbow, the colorful clothing of the children, and the varied hues in the background create a rich and visually stimulating composition. Each color is thoughtfully chosen, contributing to the lively and engaging atmosphere. The seamless blend of bright and subtle tones enhances the artwork's depth and appeal.",
+                "current": "The artwork excels in its use of a wide and harmonious range of colors. The vibrant rainbow, the colorful clothing of the children, and the varied hues in the background create a rich and visually stimulating composition. Each color is thoughtfully chosen, contributing to the lively and engaging atmosphere. The seamless blend of bright and subtle tones enhances the artwork's depth and appeal. The addition of warm tones in the foreground and cooler tones in the background creates a dynamic contrast, further enriching the piece's visual impact.",
+                "added": " The addition of warm tones in the foreground and cooler tones in the background creates a dynamic contrast, further enriching the piece's visual impact.",
+                "removed": ""
+            }
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork demonstrates good organization with a well-arranged composition. The central figure with the red bow and raised arms draws the viewer's eye towards the vibrant rainbow, creating a focal point. The surrounding children are positioned in a way that suggests unity and engagement, enhancing the overall theme of the piece. However, some minor elements, such as the overlapping heads and the varying sizes of the figures, slightly disrupt the flow. Despite these minor issues, the composition effectively guides the viewer's eye and maintains a cohesive and engaging visual narrative.",
+                "current": "The artwork demonstrates good organization with a well-arranged composition. The central figure with the red bow and raised arms draws the viewer's eye towards the vibrant rainbow, creating a focal point. The surrounding children are positioned in a way that suggests unity and engagement, enhancing the overall theme of the piece. However, some minor elements, such as the overlapping heads and the varying sizes of the figures, slightly disrupt the flow. Despite these minor issues, the composition effectively guides the viewer's eye and maintains a cohesive and engaging visual narrative.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The composition continues to be strong, with the central figure and rainbow creating a focal point. However, the overlapping heads and varying sizes of the figures remain an issue, disrupting the otherwise cohesive flow. The positioning of the children could be adjusted for better balance.",
+                "current": "The composition remains strong, with the central figure and vibrant rainbow drawing the viewer's attention. The surrounding children are positioned effectively to convey unity, but the overlapping heads and varying sizes could be more balanced. Overall, the picture organization is effective but could benefit from minor adjustments to improve the visual flow.",
+                "added": "but the overlapping heads and varying sizes could be more balanced. Overall, the picture organization is effective but could benefit from minor adjustments to improve the visual flow.",
+                "removed": "However, the overlapping heads and varying sizes of the figures remain an issue, disrupting the otherwise cohesive flow."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork now demonstrates excellent picture organization. The central figure remains a strong focal point, and the rainbow effectively draws the viewer's eye. The adjustments to the positioning of the children and the improved balance of figure sizes have greatly enhanced the flow and cohesion of the composition.",
+                "current": "The artwork now demonstrates excellent picture organization. The central figure remains a strong focal point, and the rainbow effectively draws the viewer's eye. The improved balance of the children's positioning and figure sizes enhances the overall flow, creating a seamless visual narrative. The adjustments made have significantly improved the composition's cohesion, making it highly engaging and visually appealing.",
+                "added": "The improved balance of the children's positioning and figure sizes enhances the overall flow, creating a seamless visual narrative. The adjustments made have significantly improved the composition's cohesion, making it highly engaging and visually appealing.",
+                "removed": "The adjustments to the positioning of the children and the improved balance of figure sizes have greatly enhanced the flow and cohesion of the composition."
+            }
+        }
+    }
+]

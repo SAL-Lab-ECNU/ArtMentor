@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>ArtMentor</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background: radial-gradient(ellipse at center, #fffeea 0%, #fffeea 35%, #b7e8eb 100%);
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                justify-content: space-between;
+                align-items: center;
+            }
+            h1 {
+                font-family: 'Brush Script MT', cursive;
+                color: #4a4a4a;
+                margin: 20px 0;
+                font-size: 60px;
+            }
+            .container {
+                display: flex;
+                width: 100%;
+                box-sizing: border-box;
+                align-items: flex-start;
+                padding: 0 20px;
+            }
+            .left-column {
+                width: 600px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: fixed;
+                left: 0;
+                top: 30px;
+                height: 100%;
+                padding: 60px 10px;
+                overflow-y: auto;
+                 scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+            .left-column::-webkit-scrollbar {
+                display: none;
+            }
+            .left-column img {
+                width: 100%;
+                height: 300px;
+                object-fit: contain;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+            .Entities-section, .radar-section {
+                margin-top: 20px;
+            }
+            .Entities-section h2, .radar-section h2 {
+                font-family: 'Verdana', sans-serif;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            #Entities {
+                margin-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .Entity {
+                display: inline-block;
+                background-color: #FFFBF9;
+                color: #333333;
+                padding: 8px 10px;
+                margin: 8px;
+                border-radius: 25px;
+                font-size: 14px;
+                font-family: "Linux Libertine";
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            .Entity .remove {
+                margin-left: 10px;
+                color: red;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            input[type="text"] {
+                width: 80%;
+                padding: 12px 15px;
+                margin-top: 10px;
+                border-radius: 25px;
+                border: 1px solid #ddd;
+                font-size: 14px;
+                font-family: "Linux Libertine";
+                background-color: #FFFBF9;
+                box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            button {
+                background-color: #F5FCD5;
+                color: #333333;
+                padding: 12px 25px;
+                border-radius: 25px;
+                border: none;
+                cursor: pointer;
+                font-size: 14px;
+                font-family: "Linux Libertine";
+                margin-top: 10px;
+                transition: background-color 0.3s ease;
+            }
+            button:hover {
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                background-color: #FFFEF9;
+            }
+            #styleEntity{
+                background-color: gold;
+            }
+            .middle-column {
+                flex: 2;
+                padding: 0 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                overflow-y: auto;
+                height: 100vh;
+                margin-left: calc(1.6 * 200px);
+                 scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+            .middle-column::-webkit-scrollbar {
+                display: none;
+            }
+            .dimension-section {
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                font-family: "Linux Libertine";
+                width: 110%;
+                margin-left: -3%;
+                 margin-bottom: 20px;
+            }
+            .dimension-section h3 {
+                margin-bottom: 15px;
+                color: #333;
+            }
+            select, textarea {
+                width: 100%;
+                padding: 10px 15px;
+                margin: 10px 0;
+                border-radius: 25px;
+                border: 1px solid #ddd;
+                font-size: 14px;
+                background-color: #FFFBF9;
+                box-sizing: border-box;
+            }
+            textarea {
+                height: 100px;
+                resize: none;
+            }
+            select {
+                appearance: none;
+                padding-right: 35px;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                font-family: "Linux Libertine";
+                background-position: right 15px center;
+            }
+            .loading {
+                display: none;
+                font-size: 18px;
+                color: #333;
+                margin-top: 10px;
+            }
+            .loading {
+                display: none;
+                font-size: 18px;
+                color: #333;
+                margin-top: 10px;
+                text-align: center;
+            }
+            .loading.show {
+                display: block;
+            }
+            .spinner {
+                border: 8px solid #f3f3f3;
+                border-top: 8px solid #3498db;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                animation: spin 1s linear infinite;
+                margin: auto;
+            }
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+            .right-column {
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-sizing: border-box;
+                position: fixed;
+                right: 0;
+                top: 80px;
+                height:100%;
+                padding-top: 20px;
+            }
+            .dimension-buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #FFFBF9;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                position: sticky;
+                top: 20px;
+            }
+            .dimension-buttons button {
+                margin-bottom: 10px;
+                padding: 10px 15px;
+                width: 100%;
+            }
+            a {
+                margin: 20px 0;
+                color: #4a4a4a;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .Entities-section, .radar-section {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ArtMentor</h1>
+        <div class="container">
+            <!-- LEFT -->
+            <div class="left-column">
+                <div class="dimension-section">
+                    <img src="data:image/png;base64,{{ image_data }}" alt="Uploaded Image">
+                </div>
+                 <div class="dimension-section">
+                    <div class="Entities-section">
+                        <h2>Entity Recognition</h2>
+                        <div id="Entities">
+                            {% for obj in identified_objects %}
+                                <div class="Entity" id="Entity">{{ obj }}<span class="remove" onclick="removeEntity(this)">x</span></div>
+                            {% endfor %}
+                            {% if style_label %}
+                                <div class="Entity" id="styleEntity">Style: {{ style_label[0] }}<span class="remove" onclick="removeEntity(this, true)">x</span></div>
+                            {% endif %}
+                        </div>
+                        <input type="text" id="newEntity" placeholder="Add a New Entity">
+                        <button onclick="addEntity()">Add Entity</button>
+                    </div>
+                 </div>
+                <div class="dimension-section">
+                    <div class="radar-section">
+                        <h2>Radar</h2>
+                        <img id="radar-chart" src="data:image/png;base64,{{ radar_chart }}" alt="Radar Chart">
+                    </div>
+                </div>
+            </div>
+            <!-- Center -->
+            <div class="middle-column">
+                <h2>Evaluation Sections</h2>
+                <div id="evaluation-sections">
+                   <div class="dimension-section" id="Realism-section">
+                        <h3>Realism</h3>
+                        <button id="evaluate-Realism-btn" onclick="evaluateDimension('Realism')">Evaluate Realism</button>
+                        <button id="generate-Realism-suggestion-btn" onclick="generateSuggestion('Realism')">Generate Realism Suggestion</button>
+                        <button id="submit-Realism-score-Review-btn" onclick="submitScoreReview('Realism')">Submit Score & Review</button>
+                        <button id="submit-Realism-suggestion-btn" onclick="submitSuggestion('Realism')">Submit Suggestion</button>
+                        <div id="loading-Realism" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="Realism-score" onchange="recordScoreChange('Realism')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="Realism-Review" oninput="recordReviewChange('Realism')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="Realism-suggestion" oninput="recordSuggestionChange('Realism')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="Deformation-section">
+                        <h3>Deformation</h3>
+                        <button id="evaluate-Deformation-btn" onclick="evaluateDimension('Deformation')">Evaluate Deformation</button>
+                        <button id="generate-Deformation-suggestion-btn" onclick="generateSuggestion('Deformation')">Generate Deformation Suggestion</button>
+                        <button id="submit-Deformation-score-Review-btn" onclick="submitScoreReview('Deformation')">Submit Score & Review</button>
+                        <button id="submit-Deformation-suggestion-btn" onclick="submitSuggestion('Deformation')">Submit Suggestion</button>
+                        <div id="loading-Deformation" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="Deformation-score" onchange="recordScoreChange('Deformation')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="Deformation-Review" oninput="recordReviewChange('Deformation')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="Deformation-suggestion" oninput="recordSuggestionChange('Deformation')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="Imagination-section">
+                        <h3>Imagination</h3>
+                        <button id="evaluate-Imagination-btn" onclick="evaluateDimension('Imagination')">Evaluate Imagination</button>
+                        <button id="generate-Imagination-suggestion-btn" onclick="generateSuggestion('Imagination')">Generate Imagination Suggestion</button>
+                        <button id="submit-Imagination-score-Review-btn" onclick="submitScoreReview('Imagination')">Submit Score & Review</button>
+                        <button id="submit-Imagination-suggestion-btn" onclick="submitSuggestion('Imagination')">Submit Suggestion</button>
+                        <div id="loading-Imagination" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="Imagination-score" onchange="recordScoreChange('Imagination')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="Imagination-Review" oninput="recordReviewChange('Imagination')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="Imagination-suggestion" oninput="recordSuggestionChange('Imagination')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="ColorRichness-section">
+                        <h3>Color Richness</h3>
+                        <button id="evaluate-ColorRichness-btn" onclick="evaluateDimension('Color Richness')">Evaluate Color Richness</button>
+                        <button id="generate-ColorRichness-suggestion-btn" onclick="generateSuggestion('Color Richness')">Generate Color Richness Suggestion</button>
+                        <button id="submit-ColorRichness-score-Review-btn" onclick="submitScoreReview('Color Richness')">Submit Score & Review</button>
+                        <button id="submit-ColorRichness-suggestion-btn" onclick="submitSuggestion('Color Richness')">Submit Suggestion</button>
+                        <div id="loading-ColorRichness" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="ColorRichness-score" onchange="recordScoreChange('Color Richness')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="ColorRichness-Review" oninput="recordReviewChange('Color Richness')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="ColorRichness-suggestion" oninput="recordSuggestionChange('Color Richness')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="ColorContrast-section">
+                        <h3>Color Contrast</h3>
+                        <button id="evaluate-ColorContrast-btn" onclick="evaluateDimension('Color Contrast')">Evaluate Color Contrast</button>
+                        <button id="generate-ColorContrast-suggestion-btn" onclick="generateSuggestion('Color Contrast')">Generate Color Contrast Suggestion</button>
+                        <button id="submit-ColorContrast-score-Review-btn" onclick="submitScoreReview('Color Contrast')">Submit Score & Review</button>
+                        <button id="submit-ColorContrast-suggestion-btn" onclick="submitSuggestion('Color Contrast')">Submit Suggestion</button>
+                        <div id="loading-ColorContrast" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="ColorContrast-score" onchange="recordScoreChange('Color Contrast')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="ColorContrast-Review" oninput="recordReviewChange('Color Contrast')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="ColorContrast-suggestion" oninput="recordSuggestionChange('Color Contrast')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="LineCombination-section">
+                        <h3>Line Combination</h3>
+                        <button id="evaluate-LineCombination-btn" onclick="evaluateDimension('Line Combination')">Evaluate Line Combination</button>
+                        <button id="generate-LineCombination-suggestion-btn" onclick="generateSuggestion('Line Combination')">Generate Line Combination Suggestion</button>
+                        <button id="submit-LineCombination-score-Review-btn" onclick="submitScoreReview('Line Combination')">Submit Score & Review</button>
+                        <button id="submit-LineCombination-suggestion-btn" onclick="submitSuggestion('Line Combination')">Submit Suggestion</button>
+                        <div id="loading-LineCombination" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="LineCombination-score" onchange="recordScoreChange('Line Combination')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="LineCombination-Review" oninput="recordReviewChange('Line Combination')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="LineCombination-suggestion" oninput="recordSuggestionChange('Line Combination')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="LineTexture-section">
+                        <h3>Line Texture</h3>
+                        <button id="evaluate-LineTexture-btn" onclick="evaluateDimension('Line Texture')">Evaluate Line Texture</button>
+                        <button id="generate-LineTexture-suggestion-btn" onclick="generateSuggestion('Line Texture')">Generate Line Texture Suggestion</button>
+                        <button id="submit-LineTexture-score-Review-btn" onclick="submitScoreReview('Line Texture')">Submit Score & Review</button>
+                        <button id="submit-LineTexture-suggestion-btn" onclick="submitSuggestion('Line Texture')">Submit Suggestion</button>
+                        <div id="loading-LineTexture" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="LineTexture-score" onchange="recordScoreChange('Line Texture')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="LineTexture-Review" oninput="recordReviewChange('Line Texture')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="LineTexture-suggestion" oninput="recordSuggestionChange('Line Texture')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="PictureOrganization-section">
+                        <h3>Picture Organization</h3>
+                        <button id="evaluate-PictureOrganization-btn" onclick="evaluateDimension('Picture Organization')">Evaluate Picture Organization</button>
+                        <button id="generate-PictureOrganization-suggestion-btn" onclick="generateSuggestion('Picture Organization')">Generate Picture Organization Suggestion</button>
+                        <button id="submit-PictureOrganization-score-Review-btn" onclick="submitScoreReview('Picture Organization')">Submit Score & Review</button>
+                        <button id="submit-PictureOrganization-suggestion-btn" onclick="submitSuggestion('Picture Organization')">Submit Suggestion</button>
+                        <div id="loading-PictureOrganization" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="PictureOrganization-score" onchange="recordScoreChange('Picture Organization')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="PictureOrganization-Review" oninput="recordReviewChange('Picture Organization')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="PictureOrganization-suggestion" oninput="recordSuggestionChange('Picture Organization')" placeholder="Suggestion"></textarea>
+                    </div>
+                    <div class="dimension-section" id="Transformation-section">
+                        <h3>Transformation</h3>
+                        <button id="evaluate-Transformation-btn" onclick="evaluateDimension('Transformation')">Evaluate Transformation</button>
+                        <button id="generate-Transformation-suggestion-btn" onclick="generateSuggestion('Transformation')">Generate Transformation Suggestion</button>
+                        <button id="submit-Transformation-score-Review-btn" onclick="submitScoreReview('Transformation')">Submit Score & Review</button>
+                        <button id="submit-Transformation-suggestion-btn" onclick="submitSuggestion('Transformation')">Submit Suggestion</button>
+                        <div id="loading-Transformation" class="loading">Evaluating...</div>
+                        <p>Score:</p>
+                        <select id="Transformation-score" onchange="recordScoreChange('Transformation')">
+                            <option value="not selected">not selected</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <p>Review:</p>
+                        <textarea id="Transformation-Review" oninput="recordReviewChange('Transformation')" placeholder="Review"></textarea>
+                        <p>Suggestion:</p>
+                        <textarea id="Transformation-suggestion" oninput="recordSuggestionChange('Transformation')" placeholder="Suggestion"></textarea>
+                    </div>
+                   </div>
+            </div>
+                <!-- Right -->
+            <div class="right-column">
+                <div class="dimension-buttons">
+                    <button onclick="scrollToDimension('Realism-section')">Realism</button>
+                    <button onclick="scrollToDimension('Deformation-section')">Deformation</button>
+                    <button onclick="scrollToDimension('Imagination-section')">Imagination</button>
+                    <button onclick="scrollToDimension('ColorRichness-section')">Color Richness</button>
+                    <button onclick="scrollToDimension('ColorContrast-section')">Color Contrast</button>
+                    <button onclick="scrollToDimension('LineCombination-section')">Line Combination</button>
+                    <button onclick="scrollToDimension('LineTexture-section')">Line Texture</button>
+                    <button onclick="scrollToDimension('PictureOrganization-section')">Picture Organization</button>
+                    <button onclick="scrollToDimension('Transformation-section')">Transformation</button>
+                </div>
+            </div>
+        </div>
+        <a href="{{ url_for('upload_file') }}">Upload another Artwork</a>
+        <script>
+            function scrollToDimension(dimensionId) {
+                const section = document.getElementById(dimensionId);
+                if (section) {
+                    console.log(`Scrolling to section: ${dimensionId}`);
+                    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    console.log(`Section with id ${dimensionId} not found!`);
+                }
+            }
+            var initialReviews = {};
+            var initialScores = {};
+            var initialEntities = [];
+            var initialstyle = [] ;
+            var initialSuggestions = {};
+            document.addEventListener('DOMContentLoaded', () => {
+                // record initial entity
+                document.querySelectorAll('#Entities #Entity').forEach(EntityElement => {
+                    initialEntities.push(EntityElement.textContent.slice(0, -1).trim());
+                });
+                document.querySelectorAll('#Entities #styleEntity').forEach(EntityElement => {
+                    initialstyle.push(EntityElement.textContent.slice(0, -1).trim());
+                });
+                document.querySelectorAll('select').forEach(selectElement => {
+                    if (selectElement.value !== "not selected") {
+                        selectElement.querySelector('option[value="not selected"]').disabled = true;
+                    }
+                });
+                saveEntityActions();  // Save
+            });
+            function removeEntity(element, isStyleEntity = false) {
+                console.log("removeEntity");
+                console.log(isStyleEntity);
+                var EntityText = element.parentElement.textContent.slice(0, -1).trim();
+                element.parentElement.remove();
+                console.log("EntityText");
+                console.log(EntityText);
+                recordEntityChange('remove', EntityText, isStyleEntity);
+            }
+            function addEntity() {
+                var newEntityText = document.getElementById("newEntity").value.trim();
+                if (newEntityText !== "") {
+                    var EntityContainer = document.getElementById("Entities");
+                    var newEntity = document.createElement("div");
+                    newEntity.className = "Entity";
+                    newEntity.innerHTML = newEntityText + '<span class="remove" onclick="removeEntity(this)">x</span>';
+                    EntityContainer.appendChild(newEntity);
+                    document.getElementById("newEntity").value = "";
+                    recordEntityChange('add', newEntityText);
+                }
+            }
+            function generateSuggestion(dimension) {
+                var imageData = "{{ image_data }}";
+                var imageName = "{{ image_name }}";
+                var normalizedDimension = dimension.replace(' ', '');
+                var suggestionElement = document.getElementById(`${normalizedDimension}-suggestion`);
+                var loadingElement = document.getElementById(`loading-${normalizedDimension}`);
+                var buttonElement = document.getElementById(`generate-${normalizedDimension}-suggestion-btn`);
+
+                if (buttonElement.disabled) {
+                    return;
+                }
+                loadingElement.classList.add('show');
+                buttonElement.disabled = true;
+                fetch('/generate_suggestion', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_data": imageData,
+                        "dimension": dimension,
+                        "image_name": imageName
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    suggestionElement.value = data.suggestion;
+
+                    // Update userActions
+                    if (!userActions.suggestions[dimension]) {
+                        userActions.suggestions[dimension] = {
+                            original: data.suggestion,
+                            current: data.suggestion
+                        };
+                    } else {
+                        userActions.suggestions[dimension].original = data.suggestion;
+                        userActions.suggestions[dimension].current = data.suggestion;
+                        userActions.suggestions[dimension].added = '';
+                        userActions.suggestions[dimension].removed = '';
+                    }
+
+                    // reload
+                    loadingElement.classList.remove('show');
+                    buttonElement.disabled = false;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred. Please try again.');
+                    loadingElement.classList.remove('show');
+                    buttonElement.disabled = false;
+                });
+            }
+            function evaluateDimension(dimension) {
+                var imageData = "{{ image_data }}";
+                var imageName = "{{ image_name }}";
+                var normalizedDimension = dimension.replace(' ', '');
+                var loadingElement = document.getElementById(`loading-${normalizedDimension}`);
+                var buttonElement = document.getElementById(`evaluate-${normalizedDimension}-btn`);
+                loadingElement.classList.add('show');
+                buttonElement.disabled = true;
+                fetch('/evaluate_dimension', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_data": imageData,
+                        "dimension": dimension,
+                        "image_name": imageName
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    var scoreElement = document.getElementById(`${normalizedDimension}-score`);
+                    var ReviewElement = document.getElementById(`${normalizedDimension}-Review`);
+                    var suggestionElement = document.getElementById(`${normalizedDimension}-suggestion`);
+                    scoreElement.value = data.score;
+                    ReviewElement.value = data.Review;
+                    suggestionElement.value = '';
+                    // Update userActions
+                    if (!userActions.scores[dimension]) {
+                        userActions.scores[dimension] = {
+                            original: data.score,
+                            current: data.score
+                        };
+                    } else {
+                        userActions.scores[dimension].original = data.score;
+                        userActions.scores[dimension].current = data.score;
+                    }
+
+                    if (!userActions.Reviews[dimension]) {
+                        userActions.Reviews[dimension] = {
+                            original: data.Review,
+                            current: data.Review
+                        };
+                    } else {
+                        userActions.Reviews[dimension].original = data.Review;
+                        userActions.Reviews[dimension].current = data.Review;
+                    }
+                    scoreElement.querySelector('option[value="not selected"]').disabled = true;
+                    loadingElement.classList.remove('show');
+                    buttonElement.disabled = false;
+                    updateRadarChart();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred. Please try again.');
+                    loadingElement.classList.remove('show');
+                    buttonElement.disabled = false;
+                });
+            }
+            var userActions = {
+                scores: {},
+                Reviews: {},
+                Entities: {
+                    original: initialEntities,
+                    added: [],
+                    removed: []
+                },
+                style: {
+                    original: initialstyle,
+                    added: [],
+                    removed: []
+                },
+                suggestions: {}
+            };
+            function recordScoreChange(dimension) {
+                var scoreElement = document.getElementById(`${dimension}-score`);
+                var currentScore = scoreElement.value;
+
+                if (currentScore !== "not selected") {
+
+                    scoreElement.querySelector('option[value="not selected"]').disabled = true;
+                }
+
+                if (userActions.scores[dimension]) {
+                    userActions.scores[dimension].current = currentScore;
+                } else {
+                    userActions.scores[dimension] = {
+                        initialGPTScore: currentScore,
+                        original: currentScore,
+                        current: currentScore
+                    };
+                }
+
+                saveScoreReviewActions(dimension);
+            }
+            function recordReviewChange(dimension) {
+                var ReviewElement = document.getElementById(`${dimension}-Review`);
+                var currentReview = ReviewElement.value;
+                var originalReview = initialReviews[dimension] || '';
+
+                var removed = getRemovedText(originalReview, currentReview);
+                var added = getAddedText(originalReview, currentReview);
+
+                userActions.Reviews[dimension] = {
+                    original: originalReview,
+                    current: currentReview,
+                    removed: removed,
+                    added: added
+                };
+
+                saveScoreReviewActions(dimension);
+            }
+            function recordSuggestionChange(dimension) {
+                var suggestionElement = document.getElementById(`${dimension}-suggestion`);
+                var currentSuggestion = suggestionElement.value;
+                var originalSuggestion = initialSuggestions[dimension] || '';
+
+                var removed = getRemovedText(originalSuggestion, currentSuggestion);
+                var added = getAddedText(originalSuggestion, currentSuggestion);
+
+                if (!userActions.suggestions) {
+                    userActions.suggestions = {};
+                }
+
+                userActions.suggestions[dimension] = {
+                    original: originalSuggestion,
+                    current: currentSuggestion,
+                    removed: removed,
+                    added: added
+                };
+                saveSuggestionActions(dimension);
+            }
+            function saveScoreReviewActions(dimension) {
+                var imageName = "{{ image_name }}";
+
+                fetch('/save_user_actions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_name": imageName,
+                        "user_actions": {
+                            "scores": { [dimension]: userActions.scores[dimension] },
+                            "Reviews": { [dimension]: userActions.Reviews[dimension] }
+                        }
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Score and Review actions saved:', data);
+                })
+                .catch(error => console.error('Error saving score and Review actions:', error));
+            }
+            function saveSuggestionActions(dimension) {
+                var imageName = "{{ image_name }}";
+
+                fetch('/save_user_actions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_name": imageName,
+                        "user_actions": {
+                            "suggestions": { [dimension]: userActions.suggestions[dimension] }
+                        }
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Suggestion actions saved:', data);
+                })
+                .catch(error => console.error('Error saving suggestion actions:', error));
+            }
+            function getRemovedText(original, current) {
+                return original.split('').filter(char => !current.includes(char)).join('');
+            }
+            function getAddedText(original, current) {
+                return current.split('').filter(char => !original.includes(char)).join('');
+            }
+            function recordEntityChange(action, Entity, isStyleEntity = false) {
+                console.log("isStyleEntity");
+                console.log(isStyleEntity);
+                if (isStyleEntity) {
+                    if (!userActions.style) {
+                        userActions.style = { original: [], added: [], removed: [] };
+                    }
+                    if (action === 'add') {
+                        userActions.style.added.push(Entity);
+                    } else if (action === 'remove') {
+                        userActions.style = { original: [Entity], added: [], removed: [Entity] };
+                    }
+                } else {
+                    if (action === 'add') {
+                        userActions.Entities.added.push(Entity);
+                    } else if (action === 'remove') {
+                        userActions.Entities.removed.push(Entity);
+                    }
+                }
+                saveEntityActions();
+            }
+            function saveEntityActions() {
+                var imageName = "{{ image_name }}";
+                fetch('/save_user_actions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_name": imageName,
+                        "user_actions": {
+                            "Entities": userActions.Entities,
+                            "style": userActions.style
+                        }
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Entity and style actions saved:', data);
+                })
+                .catch(error => console.error('Error saving Entity and style actions:', error));
+            }
+            function updateRadarChart() {
+                fetch('/update_radar_chart', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('radar-chart').src = `data:image/png;base64,${data.radar_chart}`;
+                })
+                .catch(error => console.error('Error:', error));
+            }
+            function submitScoreReview(dimension) {
+                var imageName = "{{ image_name }}";
+                console.log(`Submitting score_Review for dimension: ${dimension}`);
+                fetch('/submit_score_Review', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_name": imageName,
+                        "dimension": dimension
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`Score and Review for ${dimension} submitted: `, data);
+                    alert(`Score and Review for ${dimension} submitted successfully.`);
+                })
+                .catch(error => {
+                    console.error('Error submitting score and Review:', error);
+                });
+            }
+            function submitSuggestion(dimension) {
+                var imageName = "{{ image_name }}";
+                console.log(`Submitting suggestion for dimension: ${dimension}`);
+                fetch('/submit_suggestion', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "image_name": imageName,
+                        "dimension": dimension
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`Suggestion for ${dimension} submitted: `, data);
+                    alert(`Suggestion for ${dimension} submitted successfully.`);
+                })
+                .catch(error => {
+                    console.error('Error submitting suggestion:', error);
+                });
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork displays a high level of creativity and originality. The use of vibrant colors and the combination of various elements such as faces, different colored clothing, a blue object, a red background, a half sun, and a fish all contribute to a unique and engaging composition. The scene appears dynamic and full of life, suggesting a story or an event. The artist has successfully integrated these elements in a way that is both visually appealing and imaginative. However, while the ideas are creative, they do not stray far from conventional themes, which is why the score is not a perfect 5.",
+                "current": "The artwork displays a high level of creativity and originality. The use of vibrant colors and the combination of various elements such as faces, different colored clothing, a blue object, a red background, a half sun, and a fish all contribute to a unique and engaging composition. The scene appears dynamic and full of life, suggesting a story or an event. The artist has successfully integrated these elements in a way that is both visually appealing and imaginative. However, while the ideas are creative, they do not stray far from conventional themes, which is why the score is not a perfect 5.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "Upon further consideration, the artwork's imaginative aspects seem somewhat limited due to the reliance on familiar themes. While the vibrant colors and various elements are appealing, the composition doesn't push creative boundaries significantly. Introducing more abstract concepts could enhance its originality.",
+                "current": "Upon further consideration, the artwork continues to showcase strong imagination. The artist's unique combination of elements creates a captivating and thought-provoking piece. The subtle interplay between the faces and the surrounding objects adds depth and invites multiple interpretations, enhancing its imaginative appeal.",
+                "added": " The subtle interplay between the faces and the surrounding objects adds depth and invites multiple interpretations, enhancing its imaginative appeal.",
+                "removed": " Introducing more abstract concepts could enhance its originality."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork exemplifies exceptional imagination, seamlessly blending conventional themes with innovative ideas. The introduction of surreal elements like floating objects and distorted perspectives elevates the piece to a new level of creativity. The artist's bold approach challenges viewers' perceptions and stimulates curiosity.",
+                "current": "The artwork exemplifies exceptional imagination, seamlessly blending conventional themes with innovative ideas. The introduction of surreal elements like floating objects and distorted perspectives elevates the piece to a new level of creativity. The artist's bold approach challenges viewers' perceptions and stimulates curiosity. The hidden symbols and layered meanings encourage deep reflection, making the artwork profoundly original.",
+                "added": " The hidden symbols and layered meanings encourage deep reflection, making the artwork profoundly original.",
+                "removed": ""
+            }
+        }
+    }
+]

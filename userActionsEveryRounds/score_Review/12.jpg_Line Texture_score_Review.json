@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 3,
+                "initGPTscore": 3
+            },
+            "Reviews": {
+                "original": "The artwork features a moderate variety in line textures. The lines used for the hair, clothing, and the rainbow are distinct and add some depth to the piece. However, the execution of these textures is somewhat basic and lacks intricate detail. The lines are generally smooth and consistent, but there is room for more variety and sophistication to enhance the overall visual interest of the artwork.",
+                "current": "The artwork features a moderate variety in line textures. The lines used for the hair, clothing, and the rainbow are distinct and add some depth to the piece. However, the execution of these textures is somewhat basic and lacks intricate detail. The lines are generally smooth and consistent, but there is room for more variety and sophistication to enhance the overall visual interest of the artwork.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 3
+            },
+            "Reviews": {
+                "original": "The line textures in the artwork show improvement, particularly in the detailing of the children's hair and clothing. The textures add more depth and visual interest, though the rainbow's lines could still use more intricate texture to match the rest of the piece.",
+                "current": "The line textures in the artwork show noticeable improvement, especially in the detailing of the children's hair and clothing. The textures add more depth and visual interest, but the lines in the rainbow could still benefit from more intricate textures to enhance the overall impact.",
+                "added": "noticeable improvement, especially",
+                "removed": "improvement, particularly"
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 3
+            },
+            "Reviews": {
+                "original": "The artwork now displays excellent use of line textures. The children's hair and clothing showcase intricate and varied textures that contribute significantly to the depth and sophistication of the piece. The rainbow's lines have been enhanced with more texture, making the entire composition feel more cohesive and engaging.",
+                "current": "The artwork now demonstrates exceptional use of line textures. The intricate textures in the children's hair and clothing add a sophisticated layer of detail, significantly enhancing the depth of the piece. The added textures in the rainbow elevate the composition, creating a more cohesive and visually engaging artwork. The variety in line textures contributes greatly to the overall impact.",
+                "added": "demonstrates exceptional use of line textures. The added textures in the rainbow elevate the composition, creating a more cohesive and visually engaging artwork. The variety in line textures contributes greatly to the overall impact.",
+                "removed": "displays excellent use of line textures. The rainbow's lines have been enhanced with more texture, making the entire composition feel more cohesive and engaging."
+            }
+        }
+    }
+]

@@ -1,0 +1,21 @@
+[{
+    "round": 1,
+    "data": {
+        "suggestions": {
+            "original": "",
+            "current": "",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 2,
+    "data": {
+        "suggestions": {
+            "original": "To improve the color contrast in the artwork, consider intensifying the colors of the house and the bowl of food. The yellow and red of the house could be made more vibrant to create a stronger contrast with the black and white dog. Additionally, the green blanket could be a brighter or more saturated shade to stand out more against the dog and the background. Enhancing the contrast in these areas will make the overall visual impact more striking.",
+            "current": "To improve the color contrast in the artwork, consider intensifying the colors of the house and the bowl of food. The yellow and red of the house could be made more vibrant to create a stronger contrast with the black and white dog. Additionally, the green blanket could be a brighter or more saturated shade to stand out more against the dog and the background. Enhancing the contrast in these areas will make the overall visual impact more striking.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}]

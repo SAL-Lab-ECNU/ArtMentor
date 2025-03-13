@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 5
+            },
+            "Reviews": {
+                "original": "The artwork displays a profound level of originality and creativity. The use of vibrant colors and the inclusion of a rainbow and clouds create a whimsical and joyful atmosphere. The depiction of five people raising their arms towards a giant cupcake is both surprising and thought-provoking, suggesting a sense of wonder and excitement. The characters are uniquely dressed in colorful outfits, and the overall composition is dynamic and engaging. This piece showcases a high level of imagination and creativity, making it a standout work.",
+                "current": "The artwork displays a profound level of originality and creativity. The use of vibrant colors and the inclusion of a rainbow and clouds create a whimsical and joyful atmosphere. The depiction of five people raising their arms towards a giant cupcake is both surprising and thought-provoking, suggesting a sense of wonder and excitement. The characters are uniquely dressed in colorful outfits, and the overall composition is dynamic and engaging. This piece showcases a high level of imagination and creativity, making it a standout work.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 5
+            },
+            "Reviews": {
+                "original": "The artwork continues to showcase exceptional imagination. The vibrant colors and whimsical elements, such as the rainbow, clouds, and giant cupcake, create an enchanting scene. The depiction of people interacting with these fantastical elements highlights the artist's creativity. The composition is engaging and captivating.",
+                "current": "The artwork continues to showcase exceptional imagination. The vibrant colors and whimsical elements, such as the rainbow, clouds, and giant cupcake, create an enchanting scene. The depiction of people interacting with these fantastical elements highlights the artist's creativity. The inclusion of subtle details, like tiny animals hidden in the clouds, adds depth to the piece. Overall, it is a captivating display of imaginative art.",
+                "added": " The inclusion of subtle details, like tiny animals hidden in the clouds, adds depth to the piece. Overall, it is a captivating display of imaginative art.",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 5,
+                "initGPTscore": 5
+            },
+            "Reviews": {
+                "original": "While the artwork remains highly imaginative, the repetitive use of elements like the rainbow and clouds may reduce its originality. The depiction of people with outstretched arms toward a giant cupcake is creative but could be enhanced with more unexpected elements. The overall composition is engaging but could benefit from additional innovation.",
+                "current": "The artwork remains a pinnacle of imagination. The recurring elements like the rainbow and clouds contribute to a cohesive and enchanting theme. The depiction of people with outstretched arms toward a giant cupcake is delightfully whimsical and original. The inclusion of a floating castle in the background adds a new layer of fantasy. The overall composition is engaging and showcases exceptional creativity.",
+                "added": "The artwork remains a pinnacle of imagination. The recurring elements like the rainbow and clouds contribute to a cohesive and enchanting theme. The depiction of people with outstretched arms toward a giant cupcake is delightfully whimsical and original. The inclusion of a floating castle in the background adds a new layer of fantasy. The overall composition is engaging and showcases exceptional creativity.",
+                "removed": "While the artwork remains highly imaginative, the repetitive use of elements like the rainbow and clouds may reduce its originality. The depiction of people with outstretched arms toward a giant cupcake is creative but could be enhanced with more unexpected elements. The overall composition is engaging but could benefit from additional innovation."
+            }
+        }
+    }
+]

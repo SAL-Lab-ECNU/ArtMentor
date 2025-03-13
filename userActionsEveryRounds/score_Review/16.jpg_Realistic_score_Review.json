@@ -1,0 +1,33 @@
+[{
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 2,
+                "current": 2,
+                "initGPTscore": 2
+            },
+            "Reviews": {
+                "original": "The artwork demonstrates an attempt at realism but struggles with accurate proportions and detailed textures. The figures of the people are stylized and lack realistic proportions, with exaggerated features and simplified forms. The butterflies, clouds, and flowers are depicted in a more cartoonish manner rather than lifelike. The lighting and perspective are not consistently applied, which affects the overall realism of the scene. While the colors are vibrant and the composition is lively, the depiction is far from lifelike.",
+                "current": "The artwork demonstrates an attempt at realism but struggles with accurate proportions and detailed textures. The figures of the people are stylized and lack realistic proportions, with exaggerated features and simplified forms. The butterflies, clouds, and flowers are depicted in a more cartoonish manner rather than lifelike. The lighting and perspective are not consistently applied, which affects the overall realism of the scene. While the colors are vibrant and the composition is lively, the depiction is far from lifelike.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    }
+]

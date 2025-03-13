@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the color contrast in the artwork, consider using a slightly darker or more saturated background to make the blue airplane and colorful smoke stand out even more. Additionally, you could enhance the contrast between the children's clothing and the background by using more vibrant or varied shades of green and blue. This will help the figures pop against the backdrop and create a more striking visual impact. Adding more distinct outlines around the children and the airplane can also help in making the elements more pronounced.",
+                "current": "To improve the color contrast in the artwork, consider using a slightly darker or more saturated background to make the blue airplane and colorful smoke stand out even more. Additionally, you could enhance the contrast between the children's clothing and the background by using more vibrant or varied shades of green and blue. This will help the figures pop against the backdrop and create a more striking visual impact. Adding more distinct outlines around the children and the airplane can also help in making the elements more pronounced.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The contrast is already strong, but you might want to soften some of the brighter colors in the background to allow the airplane and figures to stand out more clearly. Muting some elements could help direct attention to the central subjects and create a more harmonious balance.",
+                "current": "Instead of softening the background, try enhancing the boldness of the foreground elements, such as the airplane and figures. Increasing the contrast between the bright colors and darker areas will create a more dynamic composition. Additionally, experimenting with complementary color pairings in the figures' clothing and the background could amplify the visual contrast even further.",
+                "added": "Increasing the contrast between the bright colors and darker areas will create a more dynamic composition. Additionally, experimenting with complementary color pairings in the figures' clothing and the background could amplify the visual contrast even further.",
+                "removed": "soften some of the brighter colors in the background to allow the airplane and figures to stand out more clearly. Muting some elements could help direct attention to the central subjects and create a more harmonious balance."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create a more sophisticated contrast, consider using softer transitions between light and dark areas. Reducing the intensity of the brightest colors may help create a smoother visual flow, allowing the viewer's eye to move more easily across the composition.",
+                "current": "To further enhance the contrast, intensify the bright areas while deepening the shadows to create a more striking visual impact. Rather than reducing the intensity, amplifying the contrasts between light and dark will make the elements pop more vividly. Using bold color pairings, such as brighter highlights and darker shadows, can add depth and make the composition more visually engaging.",
+                "added": "amplifying the contrasts between light and dark will make the elements pop more vividly. Using bold color pairings, such as brighter highlights and darker shadows, can add depth and make the composition more visually engaging.",
+                "removed": "Reducing the intensity of the brightest colors may help create a smoother visual flow, allowing the viewer's eye to move more easily across the composition."
+            }
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork effectively uses contrasting colors to enhance visual interest. The blue airplane stands out against the light background, and the colorful smoke adds a vibrant touch. The green and blue clothes of the children contrast well with the pink flowers and the green grass, creating a visually appealing scene. However, the contrast could be slightly more pronounced in some areas to achieve a more striking visual impact.",
+                "current": "The artwork effectively uses contrasting colors to enhance visual interest. The blue airplane stands out against the light background, and the colorful smoke adds a vibrant touch. The green and blue clothes of the children contrast well with the pink flowers and the green grass, creating a visually appealing scene. However, the contrast could be slightly more pronounced in some areas to achieve a more striking visual impact.",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 3,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The color contrast in the artwork is moderate. While the blue airplane and colorful smoke add vibrancy, some elements blend together due to similar hues. The children's clothing doesn't stand out significantly from the background.",
+                "current": "The artwork showcases a strong use of color contrast. The blue airplane and colorful smoke create a vivid focal point against the light background. The children's green and blue clothes pop against the pink flowers and green grass, enhancing the overall visual appeal.",
+                "added": "The artwork showcases a strong use of color contrast. ",
+                "removed": "The color contrast in the artwork is moderate. "
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork excels in its use of color contrast. The vivid blue airplane and the multicolored smoke sharply contrast with the pale background, immediately drawing the viewer's eye. The children's attire contrasts brilliantly with the surrounding flora, making each element stand out.",
+                "current": "The artwork excels in its use of color contrast. The vivid blue airplane and the multicolored smoke sharply contrast with the pale background, immediately drawing the viewer's eye. The children's attire contrasts brilliantly with the surrounding flora, making each element stand out. The enhanced contrast between the warm tones of the flowers and the cool tones of the sky adds depth and intensity to the overall composition.",
+                "added": " The enhanced contrast between the warm tones of the flowers and the cool tones of the sky adds depth and intensity to the overall composition.",
+                "removed": ""
+            }
+        }
+    }
+]

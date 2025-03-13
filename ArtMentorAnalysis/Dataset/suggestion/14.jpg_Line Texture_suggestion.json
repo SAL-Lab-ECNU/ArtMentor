@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line texture in the artwork, consider adding more detailed lines to the faces and hands of the characters. This could include finer lines to depict facial features and hand details, which would enhance the overall quality and depth. Additionally, varying the line thickness in these areas can add more dimension and interest. The robot and clothing textures are well-executed, so applying similar attention to detail to the faces and hands will create a more cohesive and visually appealing piece.",
+                "current": "Rather than adding more details to the faces and hands, simplifying the line work in these areas may enhance the clarity of the overall composition. Focusing on clean, consistent lines for the facial features and hands can help balance the complexity in other areas like the robot and clothing textures. Keeping the line work minimalistic may create a more refined and polished appearance.",
+                "added": "Focusing on clean, consistent lines for the facial features and hands can help balance the complexity in other areas like the robot and clothing textures. Keeping the line work minimalistic may create a more refined and polished appearance.",
+                "removed": "adding more detailed lines to the faces and hands of the characters. This could include finer lines to depict facial features and hand details, which would enhance the overall quality and depth. Additionally, varying the line thickness in these areas can add more dimension and interest."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The current line textures are effective, but increasing the complexity in the robot's design by adding more detailed lines could make it a more prominent feature in the composition. Fine lines can be used to highlight the mechanical aspects of the robot, bringing more attention to its role in the scene.",
+                "current": "Instead of increasing the complexity, simplifying the robot's design by reducing the number of detailed lines will allow the focus to shift towards the human characters. By using bold, minimal lines for the robot, the contrast between the human and mechanical elements will be more pronounced. This approach will help maintain balance in the overall composition.",
+                "added": "By using bold, minimal lines for the robot, the contrast between the human and mechanical elements will be more pronounced. This approach will help maintain balance in the overall composition.",
+                "removed": "increasing the complexity in the robot's design by adding more detailed lines could make it a more prominent feature in the composition. Fine lines can be used to highlight the mechanical aspects of the robot, bringing more attention to its role in the scene."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To add more dynamic texture, you could introduce rougher lines in the background and smoother, more refined lines for the characters and robot. This contrast would create visual interest and emphasize the central elements while adding movement and energy to the overall piece.",
+                "current": "To create a more serene and harmonious visual effect, focus on using smooth, consistent line textures throughout both the background and the characters. Avoiding rough or highly textured lines will help maintain a calm and balanced composition, ensuring that all elements work together cohesively without competing for attention.",
+                "added": "Avoiding rough or highly textured lines will help maintain a calm and balanced composition, ensuring that all elements work together cohesively without competing for attention.",
+                "removed": "introduce rougher lines in the background and smoother, more refined lines for the characters and robot. This contrast would create visual interest and emphasize the central elements while adding movement and energy to the overall piece."
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line combination in the artwork, consider integrating more cohesive and consistent line patterns throughout the entire piece. For instance, the yellow background and the figures could benefit from additional line work to create a more unified visual harmony. Introducing subtle line textures or patterns in these areas can enhance depth and movement, making the overall composition more engaging. Additionally, ensuring that the lines in the blue waves, black dots, and various shapes are more interconnected with the rest of the elements can help achieve a more balanced and cohesive look.",
+                "current": "To improve the line combination in the artwork, consider simplifying the line patterns across the piece to achieve a cleaner, more modern look. Reducing the complexity of the lines in the yellow background and focusing on fewer, stronger lines in the figures and elements like the blue waves and black dots can highlight their forms more effectively. This approach can create a sharper distinction between the foreground and background, enhancing the visual impact of the artwork.",
+                "added": "Reducing the complexity of the lines in the yellow background and focusing on fewer, stronger lines in the figures and elements like the blue waves and black dots can highlight their forms more effectively. This approach can create a sharper distinction between the foreground and background, enhancing the visual impact of the artwork.",
+                "removed": "Introducing subtle line textures or patterns in these areas can enhance depth and movement, making the overall composition more engaging. Additionally, ensuring that the lines in the blue waves, black dots, and various shapes are more interconnected with the rest of the elements can help achieve a more balanced and cohesive look."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The current line work is effective, but could be improved by introducing more dynamic variations in line thickness. This could help to bring a sense of energy and fluidity to the artwork, especially in active areas like the waves and figures. Using thicker lines for the main subjects and thinner lines for the background elements could also enhance depth perception and focus.",
+                "current": "Instead of introducing more variations, consider maintaining a uniform line thickness throughout the artwork to emphasize a minimalist style. This would give the piece a more contemporary feel, making it appear less busy and more focused. Simplifying the line work around the main subjects and in the background can create a cleaner, more unified visual presentation.",
+                "added": "This would give the piece a more contemporary feel, making it appear less busy and more focused. Simplifying the line work around the main subjects and in the background can create a cleaner, more unified visual presentation.",
+                "removed": "Introducing more dynamic variations in line thickness. This could help to bring a sense of energy and fluidity to the artwork, especially in active areas like the waves and figures. Using thicker lines for the main subjects and thinner lines for the background elements could also enhance depth perception and focus."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To further enhance the line combinations, consider adding more expressive line work that varies more freely in curvature and angle, especially in the dynamic areas like the waves and figures. This could inject more life and movement into the piece, making it more captivating.",
+                "current": "To create a more serene and controlled visual effect, streamline the line work to be more geometric and orderly, particularly in the waves and background elements. Focusing on straighter, more regular lines can give the artwork a calmer, more structured look, contrasting effectively with the more vibrant elements.",
+                "added": "Focusing on straighter, more regular lines can give the artwork a calmer, more structured look, contrasting effectively with the more vibrant elements.",
+                "removed": "Adding more expressive line work that varies more freely in curvature and angle, especially in the dynamic areas like the waves and figures. This could inject more life and movement into the piece, making it more captivating."
+            }
+        }
+    }
+]

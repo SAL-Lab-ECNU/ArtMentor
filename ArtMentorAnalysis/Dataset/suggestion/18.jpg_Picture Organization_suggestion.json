@@ -1,0 +1,21 @@
+[{
+    "round": 1,
+    "data": {
+        "suggestions": {
+            "original": "",
+            "current": "",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 2,
+    "data": {
+        "suggestions": {
+            "original": "To improve the picture organization, consider repositioning the flowers in the top left corner to a more balanced location, such as near the bottom or along the sides, to avoid disrupting the flow of the composition. Additionally, ensure that all elements, including the airplane, are proportionately sized and spaced to maintain harmony and balance within the artwork. This will help in guiding the viewer's eye more smoothly across the scene.",
+            "current": "To improve the picture organization, consider repositioning the flowers in the top left corner to a more balanced location, such as near the bottom or along the sides, to avoid disrupting the flow of the composition. Additionally, ensure that all elements, including the airplane, are proportionately sized and spaced to maintain harmony and balance within the artwork. This will help in guiding the viewer's eye more smoothly across the scene.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}]

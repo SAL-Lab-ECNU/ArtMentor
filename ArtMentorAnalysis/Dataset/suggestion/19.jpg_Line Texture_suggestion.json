@@ -1,0 +1,24 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To enhance the line texture in the artwork, consider incorporating a variety of line styles and thicknesses. For instance, use finer lines for intricate details and textures, such as the scales on the fish or the patterns on the clothing. Introduce cross-hatching or stippling techniques to add depth and dimension to the background and figures. Varying the line weight can also help to create a sense of movement and focus within the piece. Experimenting with different line textures will add visual interest and complexity to the artwork.",
+                "current": "To enhance the line texture in the artwork, simplifying the line work across the piece might create a more unified and harmonious composition. Instead of adding intricate textures like cross-hatching or stippling, focusing on clean, consistent lines throughout the figures and background will produce a more modern, polished look. Limiting the variation in line weight can also help to maintain a clear and focused visual narrative.",
+                "added": "focusing on clean, consistent lines throughout the figures and background will produce a more modern, polished look. Limiting the variation in line weight can also help to maintain a clear and focused visual narrative.",
+                "removed": "Introduce cross-hatching or stippling techniques to add depth and dimension to the background and figures. Varying the line weight can also help to create a sense of movement and focus within the piece."
+            }
+        }
+    }
+]

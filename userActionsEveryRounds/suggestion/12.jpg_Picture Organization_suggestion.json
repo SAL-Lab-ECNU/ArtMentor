@@ -1,0 +1,24 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the picture organization, consider adjusting the sizes of the figures to be more consistent, which will help create a more balanced composition. Additionally, try to avoid overlapping heads by spacing the children more evenly. This will enhance the flow and make the individual characters more distinguishable. Emphasizing the central figure with the red bow and ensuring the rainbow remains a clear focal point will further strengthen the visual narrative.",
+                "current": "Instead of focusing on consistency in figure sizes, you could embrace the variety in sizes to add visual interest and create a sense of depth. Allowing some overlap between the children can also create a feeling of interaction and connection. Emphasizing the figures more than the rainbow might shift the viewer's attention toward the characters, making them the focal point of the composition.",
+                "added": "Emphasizing the figures more than the rainbow might shift the viewer's attention toward the characters, making them the focal point of the composition.",
+                "removed": "adjusting the sizes of the figures to be more consistent, which will help create a more balanced composition. Additionally, try to avoid overlapping heads by spacing the children more evenly."
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line combinations in the artwork, focus on making the lines depicting the children's arms and hands more cohesive and consistent. Ensure that the lines are smooth and well-integrated with the rest of the composition. This will enhance the visual flow and harmony of the piece. Additionally, consider refining the lines around the edges of the rainbow to maintain the overall smoothness and consistency throughout the artwork.",
+                "current": "To improve the line combinations in the artwork, focus on refining the lines of the children's arms and hands to create a more fluid, dynamic feel. Instead of aiming for just consistency, try varying the line thickness to add more energy to the piece. Additionally, simplifying the rainbow's lines may enhance the overall balance between the central figures and the background.",
+                "added": "try varying the line thickness to add more energy to the piece. Additionally, simplifying the rainbow's lines may enhance the overall balance between the central figures and the background.",
+                "removed": "refining the lines around the edges of the rainbow to maintain the overall smoothness and consistency throughout the artwork."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The line combinations are working well, but some areas, like the children's clothing, could use a bit more definition. Sharpening the lines in the clothing will create more visual clarity and help separate the figures from the background. Adding fine details in the lines around the airplane may also enhance the dynamics of the scene.",
+                "current": "Instead of sharpening all the lines, consider simplifying the linework in the children's clothing for a cleaner look. You can focus on refining just the outer edges to create enough distinction from the background while keeping the overall composition minimalistic. The airplane's lines may benefit from a similar approach, using fewer but bolder strokes for impact.",
+                "added": "You can focus on refining just the outer edges to create enough distinction from the background while keeping the overall composition minimalistic. The airplane's lines may benefit from a similar approach, using fewer but bolder strokes for impact.",
+                "removed": "Sharpening the lines in the clothing will create more visual clarity and help separate the figures from the background. Adding fine details in the lines around the airplane may also enhance the dynamics of the scene."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create more contrast and visual interest, you could experiment with combining bold, thick lines in the foreground and finer, delicate lines in the background. This would add depth to the scene and give the figures more prominence. Varying the line textures can also make the scene more dynamic and engaging.",
+                "current": "To create a more unified look, try reducing the variation in line thickness across the composition. By maintaining consistent line weights for both the foreground and background elements, you can create a more cohesive feel. Rather than emphasizing contrast, focus on blending the lines for smoother transitions throughout the artwork.",
+                "added": "By maintaining consistent line weights for both the foreground and background elements, you can create a more cohesive feel. Rather than emphasizing contrast, focus on blending the lines for smoother transitions throughout the artwork.",
+                "removed": "experiment with combining bold, thick lines in the foreground and finer, delicate lines in the background. This would add depth to the scene and give the figures more prominence. Varying the line textures can also make the scene more dynamic and engaging."
+            }
+        }
+    }
+]

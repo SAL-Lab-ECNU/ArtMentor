@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the line combinations in the artwork, consider refining the transitions between different lines to create a smoother flow. This can be achieved by blending the lines more seamlessly where they intersect or overlap. Additionally, varying the thickness and curvature of the lines can add more depth and dimension to the piece, enhancing the overall visual harmony. Paying attention to the direction and movement of the lines can also help in guiding the viewer's eye more effectively across the composition.",
+                "current": "To improve the line combinations in the artwork, consider refining the transitions between different lines to create a smoother flow. Varying the thickness and curvature of the lines can add more depth and dimension, but focusing on the movement and how the lines lead the viewer's eye will be key to improving the composition.",
+                "added": "Varying the thickness and curvature of the lines can add more depth and dimension, but focusing on the movement and how the lines lead the viewer's eye will be key to improving the composition.",
+                "removed": "This can be achieved by blending the lines more seamlessly where they intersect or overlap. Additionally, paying attention to the direction and movement of the lines can also help in guiding the viewer's eye more effectively across the composition."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The line combinations are effective but could benefit from more variation in texture. Introducing different line patterns in key areas, like the clothing or background, could add an interesting visual contrast. Additionally, softening some of the harsher lines might create a more balanced and cohesive composition.",
+                "current": "Instead of introducing more line patterns, try simplifying the existing lines and sharpening them in specific areas to create a clearer focus. A more minimalist approach might allow the viewer to appreciate the interplay of the lines without the distraction of too much detail. Softening only the background lines can enhance the central figures' prominence.",
+                "added": "A more minimalist approach might allow the viewer to appreciate the interplay of the lines without the distraction of too much detail. Softening only the background lines can enhance the central figures' prominence.",
+                "removed": "Introducing different line patterns in key areas, like the clothing or background, could add an interesting visual contrast. Additionally, softening some of the harsher lines might create a more balanced and cohesive composition."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create a more dynamic composition, you could experiment with more complex line intersections and varied line thicknesses. This would create a greater sense of depth and movement, adding energy to the artwork. Additionally, enhancing the contrast between thick and thin lines in different areas could emphasize the main subjects.",
+                "current": "Rather than adding complexity, consider streamlining the line combinations to create a more unified and balanced look. By reducing the number of intersections and focusing on cleaner, more consistent lines, you can enhance the elegance and flow of the composition. Adding slight variations in line thickness selectively will maintain depth without overwhelming the viewer.",
+                "added": "By reducing the number of intersections and focusing on cleaner, more consistent lines, you can enhance the elegance and flow of the composition. Adding slight variations in line thickness selectively will maintain depth without overwhelming the viewer.",
+                "removed": "experiment with more complex line intersections and varied line thicknesses. This would create a greater sense of depth and movement, adding energy to the artwork. Additionally, enhancing the contrast between thick and thin lines in different areas could emphasize the main subjects."
+            }
+        }
+    }
+]

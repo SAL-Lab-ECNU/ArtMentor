@@ -1,0 +1,24 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To enhance the transformation dimension, consider incorporating more surreal or unexpected elements. For example, you could add fantastical creatures or objects that defy gravity, such as floating islands or whimsical vehicles. Experiment with blending different art styles or incorporating elements from various cultures to create a more striking and innovative scene. Additionally, playing with perspective and scale, such as having oversized flowers or tiny people, can add a unique twist to the artwork.",
+                "current": "Rather than introducing surreal or fantastical creatures, focus on creating a more organic transformation by gradually altering the natural elements already present in the scene. For instance, the mountains could slowly morph into abstract shapes, or the clouds could transform into patterns that mimic natural textures. Keeping the transformation subtle yet consistent will give the artwork a sense of evolution without overwhelming the viewer.",
+                "added": "The mountains could slowly morph into abstract shapes, or the clouds could transform into patterns that mimic natural textures.",
+                "removed": "add fantastical creatures or objects that defy gravity, such as floating islands or whimsical vehicles. Experiment with blending different art styles or incorporating elements from various cultures."
+            }
+        }
+    }
+]

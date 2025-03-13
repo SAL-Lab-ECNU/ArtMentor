@@ -1,0 +1,67 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "scores": {
+                "original": 0,
+                "current": 0,
+                "initGPTscore": null
+            },
+            "Reviews": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 4,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork displays good use of line combinations that contribute to the overall composition. The lines used to depict the children's hair, clothing, and the rainbow are well-integrated and create a cohesive visual flow. The lines are generally smooth and consistent, enhancing the overall harmony of the piece. However, there are areas where the lines could be more cohesive, particularly in the depiction of the children's arms and hands, which slightly disrupts the visual flow. Overall, the line combinations are effective and contribute positively to the artwork.",
+                "current": "The artwork displays good use of line combinations that contribute to the overall composition. The lines used to depict the children's hair, clothing, and the rainbow are well-integrated and create a cohesive visual flow. The lines are smooth and consistent, enhancing the harmony of the piece. However, some areas, such as the children's arms and hands, could be refined to improve the visual flow. Overall, the line combinations are effective and contribute positively to the artwork.",
+                "added": "",
+                "removed": "are generally ",
+                "removed": "slightly disrupts"
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "scores": {
+                "original": 4,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork maintains good use of line combinations, but the cohesion could be improved in certain areas. The lines depicting the children's hair and clothing are well-integrated, but the lines in the rainbow lack consistency. Additionally, the lines in the children's arms and hands still disrupt the visual flow.",
+                "current": "The artwork exhibits excellent use of line combinations that greatly enhance the overall composition. The lines used to depict the children's hair, clothing, and the rainbow are not only well-integrated but also expressive, creating a cohesive and dynamic visual flow. The lines are smooth and consistent, significantly enhancing the harmony of the piece. The depiction of the children's arms and hands has improved, seamlessly integrating with the rest of the composition. Overall, the line combinations are highly effective and contribute greatly to the artwork's appeal.",
+                "added": "exhibits excellent use of line combinations that greatly enhance the overall composition. The lines are smooth and consistent, significantly enhancing the harmony of the piece. The depiction of the children's arms and hands has improved, seamlessly integrating with the rest of the composition. Overall, the line combinations are highly effective and contribute greatly to the artwork's appeal.",
+                "removed": "maintains good use of line combinations, but the cohesion could be improved in certain areas. The lines in the rainbow lack consistency. Additionally, the lines in the children's arms and hands still disrupt the visual flow."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "scores": {
+                "original": 5,
+                "current": 5,
+                "initGPTscore": 4
+            },
+            "Reviews": {
+                "original": "The artwork now demonstrates outstanding use of line combinations. The lines throughout the piece are cohesive, expressive, and contribute to a dynamic visual flow. The improvements in the depiction of the children's arms and hands have eliminated previous disruptions. The integration of all elements through line work greatly enhances the overall harmony and impact of the artwork.",
+                "current": "The artwork now demonstrates exceptional use of line combinations. The lines throughout the piece are cohesive, expressive, and contribute to a dynamic visual flow. The intricate details in the line work add depth and sophistication. The improvements in the depiction of the children's arms and hands have eliminated previous disruptions. The seamless integration of all elements through line work greatly enhances the overall harmony and impact of the artwork.",
+                "added": "exceptional use of line combinations. The intricate details in the line work add depth and sophistication. The seamless integration of all elements through line work",
+                "removed": "outstanding use of line combinations. The integration of all elements through line work"
+            }
+        }
+    }
+]

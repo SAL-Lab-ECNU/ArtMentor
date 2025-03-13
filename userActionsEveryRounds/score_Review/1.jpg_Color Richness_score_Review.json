@@ -1,0 +1,61 @@
+[{
+    "round": 1,
+    "data": {
+        "scores": {
+            "original": 0,
+            "current": 0,
+            "initGPTscore": null
+        },
+        "Reviews": {
+            "original": "",
+            "current": "",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 2,
+    "data": {
+        "scores": {
+            "original": 4,
+            "current": 4,
+            "initGPTscore": 4
+        },
+        "Reviews": {
+            "original": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of different colors for the characters, clothing, and objects creates a lively and engaging scene. The green shirt, blue shorts, and black shoes of the character, along with the various colors of the animals and objects, contribute to a dynamic composition. However, the background is left blank, which slightly limits the overall color richness. Adding some background elements or colors could further enhance the visual experience.",
+            "current": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of different colors for the characters, clothing, and objects creates a lively and engaging scene. The green shirt, blue shorts, and black shoes of the character, along with the various colors of the animals and objects, contribute to a dynamic composition. However, the background is left blank, which slightly limits the overall color richness. Adding some background elements or colors could further enhance the visual experience.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 3,
+    "data": {
+        "scores": {
+            "original": 4,
+            "current": 4,
+            "initGPTscore": 4
+        },
+        "Reviews": {
+            "original": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of different colors for the characters, clothing, and objects creates a lively and engaging scene. The green shirt, blue shorts, and black shoes of the character, along with the various colors of the animals and objects, contribute to a dynamic composition. However, the background is left blank, which slightly limits the overall color richness. Adding some background elements or colors could further enhance the visual experience.",
+            "current": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of different colors for the characters, clothing, and objects creates a lively and engaging scene. The green shirt, blue shorts, and black shoes of the character, along with the various colors of the animals and objects, contribute to a dynamic composition. However, the background is left blank, which slightly limits the overall color richness. Adding some background elements or colors could further enhance the visual experience.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 4,
+    "data": {
+        "scores": {
+            "original": 4,
+            "current": 4,
+            "initGPTscore": 4
+        },
+        "Reviews": {
+            "original": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of different colors for the characters, clothing, and objects creates a lively and engaging scene. The green shirt, blue shorts, and black shoes of the character, along with the various colors of the animals and objects, contribute to a dynamic composition. However, the background is left blank, which slightly limits the overall color richness. Adding some background elements or colors could further enhance the visual experience.",
+            "current": "The artwork features a good variety of colors that are well-balanced, enhancing the visual appeal of the piece. The use of different colors for the characters, clothing, and objects creates a lively and engaging scene. The green shirt, blue shorts, and black shoes of the character, along with the various colors of the animals and objects, contribute to a dynamic composition. However, the background is left blank, which slightly limits the overall color richness. Adding some background elements or colors could further enhance the visual experience.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}]

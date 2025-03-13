@@ -1,0 +1,46 @@
+[{
+    "round": 1,
+    "data": {
+        "scores": {
+            "original": 0,
+            "current": 0,
+            "initGPTscore": null
+        },
+        "Reviews": {
+            "original": "",
+            "current": "",
+            "added": "",
+            "removed": ""
+        }
+    }
+}, {
+    "round": 2,
+    "data": {
+        "scores": {
+            "original": 5,
+            "current": 5,
+            "initGPTscore": 5
+        },
+        "Reviews": {
+            "original": "The artwork displays a profound level of originality and creativity. The artist has combined various elements such as a child balancing on a yellow scale, surrounded by a monkey, cat, dog, bird, and insect, which are all interacting in a lively manner. The inclusion of an exclamation mark and a stack of books on the other side of the scale adds a unique and thought-provoking twist. The scene is both surprising and engaging, showcasing the artist's ability to think outside the box and create a vivid, imaginative scenario.",
+            "current": "The artwork displays a profound level of originality and creativity. The artist has combined various elements such as a child balancing on a yellow scale, surrounded by a monkey, cat, dog, bird, and insect, which are all interacting in a lively manner. The inclusion of a schoolbag and a stack of books on the other side of the scale adds a unique and thought-provoking twist. This shows that students'pressure to study. The schoolbag is heavier than students adding many animals.",
+            "added": " schoolbagis shows that students'essure to study The schoolbag is heavier than students adding many animals.",
+            "removed": "n exclamation marke scene is both surising and engaging, showcasing the artist's ability to think outside the box and create a vivid, imaginative scenario"
+        }
+    }
+}, {
+    "round": 3,
+    "data": {
+        "scores": {
+            "original": 5,
+            "current": 5,
+            "initGPTscore": 5
+        },
+        "Reviews": {
+            "original": "The artwork displays a profound level of originality and creativity. The artist has combined various elements such as a child balancing on a yellow scale, surrounded by a monkey, cat, dog, bird, and insect, which are all interacting in a lively manner. The inclusion of a schoolbag and a stack of books on the other side of the scale adds a unique and thought-provoking twist, highlighting the pressure students face to study. The schoolbag being heavier than the child with many animals emphasizes the weight of academic responsibilities. This imaginative composition effectively conveys a meaningful message through its unique and creative elements.",
+            "current": "The artwork displays a profound level of originality and creativity. The artist has combined various elements such as a child balancing on a yellow scale, surrounded by a monkey, cat, dog, bird, and insect, which are all interacting in a lively manner. The inclusion of a schoolbag and a stack of books on the other side of the scale adds a unique and thought-provoking twist, highlighting the pressure students face to study. The schoolbag being heavier than the child with many animals emphasizes the weight of academic responsibilities. This imaginative composition effectively conveys a meaningful message through its unique and creative elements.",
+            "added": "",
+            "removed": ""
+        }
+    }
+}]

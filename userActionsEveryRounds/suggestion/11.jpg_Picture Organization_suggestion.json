@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "data": {
+            "suggestions": {
+                "original": "",
+                "current": "",
+                "added": "",
+                "removed": ""
+            }
+        }
+    },
+    {
+        "round": 2,
+        "data": {
+            "suggestions": {
+                "original": "To improve the picture organization, consider adjusting the positioning of the figures to reduce overlapping and enhance clarity. Ensure that each child is distinctly visible and not obscured by others. Additionally, you might want to add more space between the airplane and the children to emphasize the interaction and movement. Balancing the elements more evenly across the canvas can also help in creating a more harmonious composition.",
+                "current": "Instead of spacing out the figures, consider embracing the overlapping of the figures to create a more connected and dynamic composition. Allowing the airplane and the children to interact more closely will emphasize their connection and create a sense of unity. Reducing the space between elements will produce a more intimate and cohesive visual experience.",
+                "added": "Allowing the airplane and the children to interact more closely will emphasize their connection and create a sense of unity. Reducing the space between elements will produce a more intimate and cohesive visual experience.",
+                "removed": "add more space between the airplane and the children to emphasize the interaction and movement. Balancing the elements more evenly across the canvas can also help in creating a more harmonious composition."
+            }
+        }
+    },
+    {
+        "round": 3,
+        "data": {
+            "suggestions": {
+                "original": "The overall organization is effective, but bringing the airplane to the forefront of the composition could make it a stronger focal point. Adjusting the size and positioning of the airplane relative to the children would help create a more dynamic interaction between the elements and make the piece more engaging.",
+                "current": "Rather than bringing the airplane forward, consider keeping it in its current position and focus on enlarging the children to make them more prominent. By emphasizing the figures, you can create a more balanced visual hierarchy that draws attention to the main subjects. Keeping the airplane in the background will maintain a supporting role without overwhelming the viewer.",
+                "added": "By emphasizing the figures, you can create a more balanced visual hierarchy that draws attention to the main subjects. Keeping the airplane in the background will maintain a supporting role without overwhelming the viewer.",
+                "removed": "bringing the airplane to the forefront of the composition could make it a stronger focal point. Adjusting the size and positioning of the airplane relative to the children would help create a more dynamic interaction."
+            }
+        }
+    },
+    {
+        "round": 4,
+        "data": {
+            "suggestions": {
+                "original": "To create more visual impact, try grouping the children closer together and increasing the distance between them and the background elements. This will create a stronger focal point and make the figures stand out more clearly against the background. Grouping the children will also highlight their interaction and create a more cohesive composition.",
+                "current": "For a more balanced composition, consider spacing the children more evenly throughout the canvas and bringing the background elements closer to them. This will create a more integrated scene, allowing the figures and background to interact harmoniously. Avoid grouping the children too closely, as it could limit the visual flow and create unnecessary tension in the composition.",
+                "added": "spacing the children more evenly throughout the canvas and bringing the background elements closer to them. This will create a more integrated scene, allowing the figures and background to interact harmoniously.",
+                "removed": "grouping the children closer together and increasing the distance between them and the background elements. This will create a stronger focal point and make the figures stand out more clearly against the background."
+            }
+        }
+    }
+]
