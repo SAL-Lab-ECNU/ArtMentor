@@ -13,6 +13,8 @@
 This repository contains the code for **ArtMentor**, a tool designed to assist art teachers in evaluating elementary student artworks using AI. ArtMentor leverages the capabilities of large multimodal language models (MLLMs) to provide insights into creative processes and educational value.
 
 - **Paper**: [ArtMentor: AI-Assisted Evaluation of Artworks to Explore Multimodal Large Language Models Capabilities](./ArtMentor%20AI-Assisted%20Evaluation%20of%20Artworks%20to%20Explore%20Multimodal%20Large%20Language%20Models%20Capabilities.pdf) (CHI 2025)
+- **Project Website** [ArtMentor](https://artmentor.github.io/)
+- **Video Presentation** [Video](https://www.bilibili.com/video/BV1zkQpYPEAW/?share_source=copy_web&vd_source=7d5d8be206e3c589172a6b8dcccfbbcc)
 
 
 ---
