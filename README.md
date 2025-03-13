@@ -194,7 +194,9 @@ For the initial analysis of the **ArtMentor** application, we used a collection 
 
 When participants evaluated the artworks using the ArtMentor system, they were provided with these 20 artworks and the corresponding audio recordings, which were played during the evaluation to give participants additional context for their assessments.
 
-Project Website is at [here](https://artmentor.github.io/).
+Project Website is [here](https://artmentor.github.io/).
+
+Our video presentation is [here](https://www.bilibili.com/video/BV1zkQpYPEAW/?share_source=copy_web&vd_source=7d5d8be206e3c589172a6b8dcccfbbcc).
 
 Cite
 
