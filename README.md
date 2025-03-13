@@ -23,7 +23,7 @@ This repository contains the code for **ArtMentor**, a tool designed to assist a
 - [Contents](#contents)
 - [Run ArtMentor](#run-artmentor)
 - [Advanced Usage](#advanced-usage)
-  - [Explanation of Parameters:](#explanation-of-parameters)
+    - [Explanation of Parameters:](#explanation-of-parameters)
 - [Data Collection](#data-collection)
 
 ---
@@ -186,10 +186,23 @@ ArtMentor meticulously records all interactions between art educators and the sy
 
 This interaction data is invaluable for understanding and improving the system's effectiveness in educational settings.
 
-click [here](https://github.com/ArtMentor/ArtMentorAnalysis) for the experimental data we collected, and all the analysis codes.
+click [here](https://github.com/SAL-Lab-ECNU/ArtMentor/tree/main/ArtMentorAnalysis) for the experimental data we collected, and all the analysis codes.
 
 **Artwork Source and Audio Descriptions**
 
 For the initial analysis of the **ArtMentor** application, we used a collection of 20 artworks created by elementary school students from the same primary school. Along with the artworks, we also collected audio recordings where the students described their creative processes and thoughts behind each artwork.
 
 When participants evaluated the artworks using the ArtMentor system, they were provided with these 20 artworks and the corresponding audio recordings, which were played during the evaluation to give participants additional context for their assessments.
+
+Project Website is at [here](https://artmentor.github.io/).
+
+Cite
+
+```bash
+@article{zheng2025artmentor,
+  title={ArtMentor: AI-Assisted Evaluation of Artworks to Explore Multimodal Large Language Models Capabilities},
+  author={Zheng, Chanjin and Yu, Zengyi and Jiang, Yilin and Zhang, Mingzi and Lu, Xunuo and Jin, Jing and Gao, Liteng},
+  journal={arXiv preprint arXiv:2502.13832},
+  year={2025}
+}
+```
